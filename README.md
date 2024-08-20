@@ -65,15 +65,29 @@ Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em q
 
 ### Em 2024-1
   O problema foi apresentado pela parceira Dom Rock, uma empresa de dados e tecnologia de São José dos Campos que oferece serviços de tratamento de dados. A parceira recebe diversas entradas de dados como arquivos .xlsx ou .csv até mais complexos como gravações de voz e fotos e trata as informações através de uma pipeline que transforma os dados em consumíveis para a empresa cliente tomar decisões com base em dados.
+  
   O desafio proposto envolveu o início da pipeline de dados da empresa parceira, sendo dividido em três etapas. A primeira (denominada Landing Zone) envolve a entrada de um arquivo. No caso do desafio proposto, um arquivo .csv. a segunda (denominada Bronze) tratava-se da definição do identificador único das informações do arquivo (ID), a escolha de colunas que geram um hash e a exclusão de informações sem relevância. Por fim, a terceira etapa (denominada Silver) é onde foram aplicadas as regras de negócio, além da possibilidade de criar relacionamentos de 'De/Para' para a conversão de informação para dados mais consumívels.
- 
+
+  A equipe Wiz propôs e entregou a solução 'Pipeline Configurator', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados MySQL.
 
 Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
 
-[GIT](https://www.git.com)
+[GIT](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
 #### Tecnologias Utilizadas
 Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+- HTML: linguagem de programação para criação de páginas Web;
+- CSS: linguagem para aplicação de estilos em códigos HTML;
+- TypeScript: linguagem variante de JavaScript que adiciona tipagem ao código;
+- Vue.js: framework JavaScript para o desenvolvimento de SPA (Single Page Application) e facilitador na criação de códigos reutilzáveis;
+- Java: linguagem de programação orientada a objetos;
+- Spring Boot: framework Java para desenvolvimento de Rest APIs;
+- MySQL: simples SGDB da Oracle para armazenamento de dados da aplicação;
+- IntelliJ IDEA: IDE para desenvolvimento Java;
+- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
+- Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
+- Discord: ferramenta para comunicação interna do grupo;
+- Slack: ferramenta para comunicação com o cliente
 
 #### Contribuições Pessoais
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
