@@ -75,7 +75,6 @@ Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a 
 [GIT](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
 #### Tecnologias Utilizadas
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
 - HTML: linguagem de programação para criação de páginas Web;
 - CSS: linguagem para aplicação de estilos em códigos HTML;
 - TypeScript: linguagem variante de JavaScript que adiciona tipagem ao código;
@@ -94,9 +93,16 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 
 #### Hard Skills
 Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+- Java: sei fazer com autonomia;
+- Spring Boot: sei fazer com facilidade (Security, JWT, mapeamento de entidades, repositórios, serviços e controllers);
+- SQL: sei fazer com autonomia (DDL e DQL);
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
+- Trabalho em equipe: realizei as tarefas, que foram dispostas igualmente entre os membros da equipe considerando o conhecimento de cada um, e ofereci apoio a quem teve dificuldades, evitando 'roubar' a tarefa para mim;
+- Comunicação: atualizações em dailies, sprint reviews e reuniões;
+- Iniciativa: propus diversas ferramentas e ideias que foram adotadas ao longo do projeto;
+- Solução de problemas: desenvolvi e apliquei algumas das regras de negócio do cliente nos serviços;
+- Pensamento analítico: análise e tratamento de dados que foram construídos em um objeto para ser facilmente consumido    
 
 ### Em 2025-1
 Mesmo formato
