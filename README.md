@@ -89,6 +89,14 @@ Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a 
 - Slack: ferramenta para comunicação com o cliente
 
 #### Contribuições Pessoais
+- Colaborei com a modelagem, desenvolvimento e manutenção das tabelas e relacionamentos referentes à etapa Bronze, Silver, Logs;
+- Colaborei com o mapeamento de entidades e DTOs das tabelas acima utilizando as anotações oferecidas pelo Spring para identificar chaves estrangeiras, chaves compostas, tipos de dados, nome de colunas, nome de tabelas, etc;
+  - (@JoinColumn, @JoinColumns, @ManyToOne, @OneToMany, @Id, @EmbeddedId, @GeneratedValue)
+  - Aprendizado e utilização dos dois diferentes tipos de FetchTypes do @GeneratedValue: LAZY e EAGER
+- Sugeri e implementei a biblioteca 'ModelMapper' no projeto. A biblioteca permite a conversão de Entidade para DTO e DTO para Entidade de maneira ágil em uma linha de código;
+- Implementei o Spring Security com JWTs, separando níveis de acesso entre admin, landing zone, bronze e silver;
+- Colaborei com a jornada do dado <Repository, Service, Controller> para várias entidades;
+- Desenvolvi vários métodos que implementam a regra de negócio requisitada pelo cliente na camada de serviço;
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
