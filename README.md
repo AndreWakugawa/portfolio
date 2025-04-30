@@ -62,13 +62,24 @@ O projeto teve os seguintes requisitos:
 - Git e Github: controle de versionamento e hospedagem.
 
 #### Contribuições Pessoais
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
+- Colaborei com a modelagem dos 'headers' dos arquivos CSV;
+- Realizei o tratamento lógico na comparação das informações de input com os dados do CSV para login, hierarquia de turma, times e pessoas.
+- Implantei a lógica de criação de sprints relacionadas à turmas;
+- Colaborei com a lógica do login com a verificação do input do usuário com os dados disponiveis no CSV;
+- Adicionei as funcionalidades CRUD para o gerenciamento de turmas.
+
+\* Todas as contribuições foram realizadas utilizando Python e CSV.
 
 #### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+- Python: aprendi a fazer com consultas;
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
+- Metodologias ágeis e SCRUM: aprendi e apliquei com a equipe, organizando entregáveis por partes e em prazos definidos.
+- Gerenciamento de projeto: estudei e apliquei algumas táticas como brainstorm, SMART e PICK para definir características do projeto, prioridades, ideias realistas e inalcançáveis para guiar o início do projeto.
+- Trabalho em equipe: realizei as tarefas, que foram dispostas igualmente entre os membros da equipe considerando o conhecimento de cada um, e ofereci apoio a quem teve dificuldades, evitando 'roubar' a tarefa para mim;
+- Comunicação com o cliente: aprendi como me comunicar com cliente e como realizar perguntas para extrair informações que vão ajudar na tomada de decisões;
+- Comunicação: compartilhamento de informações em dailies, sprint reviews e reuniões;
+- Iniciativa: procurei técnicas de gerenciamento de projeto, apresentei para a equipe e apliquei durante o desenvolvimento. Dessa maneira, foi mais simples identificar o escopo e as características do projeto e dar um pontapé inicial no desenvolvimento;
 
 ### Em 2023-2
 Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
