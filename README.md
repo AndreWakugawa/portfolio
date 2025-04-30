@@ -2,10 +2,12 @@
 
 ## Introdução
 
-Tenho XX anos, sou bacharel em Imagem e Som pela Universidade Federal de São Carlos e graduando do Tecnólogo em Banco de Dados pela FATEC Prof. Jessen Vidal.
-Fui estagiário de TI na empresa KLG do Brasil durante XX meses e atualmente sou CEO da DEVMINDS
+![](https://github.com/AndreWakugawa/portfolio/blob/main/blob/foto.jpg)
 
-Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
+Tenho 25 anos, sou bacharel em Imagem e Som pela Universidade Federal de São Carlos e graduando do Tecnólogo em Banco de Dados pela FATEC Prof. Jessen Vidal.
+Fui estagiário de TI na empresa KLG do Brasil durante 1 ano entre o período de mai/2024 - mai/2025.
+
+Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação.
 
 ## Contatos
 * [GIT](https://github.com/AndreWakugawa)
@@ -21,21 +23,43 @@ Faça uma breve introdução sobre você. Fale de sua formação e carreira. Cas
   * JPA & Hibernate
   * Spring Security
   * JWT, Bearer Tokens, Session Cookies
+* Apache Spark
+* Docker e docker compose
 * Python
-* Javascript
+* Javascript e Typescript
 * AWS
-* MVC Design Pattern
 * Object Oriented Programming (OOP)
 
 ## Meus Projetos
 
 ### Em 2023-1
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
+O primeiro projeto desenvolvido durante a graduação foi proposto pela empresa-cliente fictícia PBLTeX com o desafio de desenvolver desenvolver uma aplicação de Avaliação 360° para uso interno da instituição de ensino. 
 
-[GIT](https://www.git.com)
+A solução foi entregue pela equipe de desenvolvimento DevMinds na qual atuei como Product Owner. A aplicação com o nome de 'eVal360' foi desenvolvida para uso em terminal, com algumas janelas de dashboards que aparecem em algumas interações. Um arquivo csv foi utilizado como um pseudo banco de dados. Como um desafio do próprio grupo, decidimos desenvolver 100% em Python.
+
+O projeto teve os seguintes requisitos:
+- Autenticação (login)
+> Uma comparação dos inputs de email e senha com dados existentes no arquivo 'usersDB.csv' que simula uma tabela de usuários.
+- Controle de acesso
+> Uma simples verificação do nível do usuário disponível em 'usersDB.csv' que direciona para rotas diferente caso o nível seja de **Administrador** ou **Usuário**.
+- Controle de turmas e times
+> Criação de turmas (cursos) e times (equipes) dentro dessas turmas com validação de um usuário por equipe dentro de uma mesma turma.
+- Controle de Sprints
+> Possibilidade de configuração da quantidade e duração em dias das Sprints durante a criação de uma turma nova.
+- Dashboards gerenciais
+> Visualização em gráficos para gestores analisarem as notas dos fatores de avaliação de individuos em uma turma e médias de uma turma com identificação visual para fatores com notas acima e abaixo da média.
+
+[Repositório do eVal360](https://github.com/AndreWakugawa/DevMinds)
 
 #### Tecnologias Utilizadas
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento da linguagem Python;
+- Python: principal e única linguagem de desenvolvimento em que foi desenvolvida a toda a lógica e regras de negócio da aplicação;
+- Matplotlib: biblioteca externa de Python que foi utilizada para a montagem e exibição de gráficos para os dashboards;
+- Arquivos CSV: arquivos com propósito de servir como um 'pseudo banco de dados' que substituiram o uso de SGBDs, tecnologia na qual não tinhamos conhecimento no começo do curso;
+- ClickUp: ferramenta de gestão de projetos para organização e controle interno da equipe;
+- Slack: ferramenta para comunicação com o cliente;
+- Miro: ferramenta auxiliar na gestão do projeto em que utilizamos para realizar Brainstorms, Sprint reviews, retrospectivas e técnicas de gerenciamento de projeto como as tabelas SMART e PICK;
+- Git e Github: controle de versionamento e hospedagem.
 
 #### Contribuições Pessoais
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
