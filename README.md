@@ -63,10 +63,11 @@ O projeto teve os seguintes requisitos:
 
 #### Contribuições Pessoais
 - Colaborei com a modelagem dos 'headers' dos arquivos CSV;
-- Realizei o tratamento lógico na comparação das informações de input com os dados do CSV para login, hierarquia de turma, times e pessoas.
+- Realizei o tratamento lógico na comparação das informações de input com os dados do CSV para login, hierarquia de turma, times e pessoas;
 - Implantei a lógica de criação de sprints relacionadas à turmas;
 - Colaborei com a lógica do login com a verificação do input do usuário com os dados disponiveis no CSV;
-- Adicionei as funcionalidades CRUD para o gerenciamento de turmas.
+- Adicionei as funcionalidades CRUD para o gerenciamento de turmas;
+- Realizei a comunicação com o cliente para definição prioridades, tiragem de dúvidas e extração de informações e ajudar no desenvolvimento da aplicação.
 
 \* Todas as contribuições foram realizadas utilizando Python e CSV.
 
@@ -82,21 +83,55 @@ O projeto teve os seguintes requisitos:
 - Iniciativa: procurei técnicas de gerenciamento de projeto, apresentei para a equipe e apliquei durante o desenvolvimento. Dessa maneira, foi mais simples identificar o escopo e as características do projeto e dar um pontapé inicial no desenvolvimento;
 
 ### Em 2023-2
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
+O desafio proposto foi o desenvolvimento de uma ferramenta para gerenciamento de trabalhos de graduação de uso interno da instituição de ensino, sendo o cliente a própria FATEC. A aplicação deve gerir as matérias/semestres, alunos matriculados nas matérias, regras de negócio envolvendo os diferentes tipos de TG, entrega de atividades, atribuição de notas, retorno de feedbacks e geração de relatórios.
+A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação), uma aplicação em desktop para uso dos próprios professores que ministram as matérias de Trabalho de Graduação. A aplicação recebe como entrada um arquivo de respostas de um Google Forms em CSV e popula os dados dos alunos para seu uso.
 
-[GIT](https://www.git.com)
+[SGTG (Sistema Gerenciador de Trabalhos de Graduação)](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
 
 #### Tecnologias Utilizadas
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+- Java: linguagem para manuseio dos dados e manipulação da lógica da aplicação;
+- JavaFX: framework Java para criação de telas. Nesse caso utilizado para o desenvolvimento das telas da aplicação em desktop.
+- Maven: ferramenta de automação de compilação utilizada para facilitar a importação de bibliotecas externas;
+- MySQL: um SGBD para armazenamento dos dados da aplicação;
+- IntelliJ IDEA: IDE para desenvolvimento Java;
+- Git e Github: controle de versionamento e hospedagem;
+- Diagrams.net: ferramenta web para desenho de diagramas, wireframe e UML da aplicação;
+- Discord: ferramenta de comunicação interna da equipe, utilizada para compartilhar informações e realizar reuniões quando necessário;
+- Slack: ferramenta para comunicação com o cliente;
+- MySQL Workbench: ferramenta visual para gerenciamento do MySQL;
+- DBeaver: ferramenta de administração de bases de dados relacionais, também utilizado para gerenciar o banco de dados MySQL.
 
 #### Contribuições Pessoais
+
+Inicialmente comecei atuando apenas como desenvolvedor, porém, por volta do início da segunda sprint, a pessoa responsável pelo papel de Product Owner teve que trancar o curso. Com isso, assumi o papel de Product Owner até a entrega final, além de manter minhas responsabilidades como desenvolvedor.
+
+- Realizei a modelagem de dados da aplicação utlizando a ferramenta Diagrams.net para desenho inicial do ERD.
+<details>
+<summary>Relacionamento de dados</summary>
+<br>
+ 
+ ![*Print da ferramenta DBeaver](https://github.com/AndreWakugawa/portfolio/blob/main/blob/dbSGTG.png)
+</details>
+
+- Criei o script DDL para criação do banco de dados seguindo o ERD acima;
+- Após assumir como Product Owner corri atrás para cobrir as pendências da falta de comunicação que surgiram com o representante anterior;
+- Realizei o estudo inicial do JDBC e ajudei os membros responsáveis pelo back-end desenvolver as conexões da aplicação Java com o banco de dados;
+- Colaborei com a criação de DAOs e objetos POJO que representam as entidades do banco de dados;
+- Colaborei com queries SQL para que busquem as informações corretas no banco de dados;
+
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+Java: primeiro contato com a linguagem, aprendi a utilizar com consultas;
+JavaFX: leve contato com a ferramenta, aprendi a utilizar com consultas e auxilio de outros membros;
+SQL (MySQL): primeiro contato com a linguagem, aprendi a utilizar com autonomia;
+Maven: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
+JDBC: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
+- Comunicação com o cliente: tive que assumir o papel durante o andamento do projeto e buscar soluções intermediárias com o cliente para uma entrega cobrindo requisitos que não haviam sido discutidos até então. Com isso, acredito que ajudei na construção de um entregável admissível que evitou a não aceitação de uma sprint.
+- Comunicação: me esforcei em ir atrás de informações com o cliente e entregar ao time de desenvolvimento. Com isso foi possível entender e entregar requisitos que estavam faltantes no escopo do projeto até então;
+- Iniciativa: tomei iniciativa para aprender diversas tecnologias e linguagens novas, sendo elas Java, JDBC, Maven, SQL (MySQL) e compartilhei o conhecimento sempre que membros da equipe tinham dúvidas.
 
 ### Em 2024-1
   O problema foi apresentado pela parceira Dom Rock, uma empresa de dados e tecnologia de São José dos Campos que oferece serviços de tratamento de dados. A parceira recebe diversas entradas de dados como arquivos .xlsx ou .csv até mais complexos como gravações de voz e fotos e trata as informações através de uma pipeline que transforma os dados em consumíveis para a empresa cliente tomar decisões com base em dados.
