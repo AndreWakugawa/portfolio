@@ -122,11 +122,11 @@ Inicialmente comecei atuando apenas como desenvolvedor, porém, por volta do in�
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
-Java: primeiro contato com a linguagem, aprendi a utilizar com consultas;
-JavaFX: leve contato com a ferramenta, aprendi a utilizar com consultas e auxilio de outros membros;
-SQL (MySQL): primeiro contato com a linguagem, aprendi a utilizar com autonomia;
-Maven: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
-JDBC: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
+- Java: primeiro contato com a linguagem, aprendi a utilizar com consultas;
+- JavaFX: leve contato com a ferramenta, aprendi a utilizar com consultas e auxilio de outros membros;
+- SQL (MySQL): primeiro contato com a linguagem, aprendi a utilizar com autonomia;
+- Maven: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
+- JDBC: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
 
 #### Soft Skills
 - Comunicação com o cliente: tive que assumir o papel durante o andamento do projeto e buscar soluções intermediárias com o cliente para uma entrega cobrindo requisitos que não haviam sido discutidos até então. Com isso, acredito que ajudei na construção de um entregável admissível que evitou a não aceitação de uma sprint.
@@ -139,9 +139,7 @@ JDBC: primeiro contato com a tecnologia, aprendi a utilizar com consultas;
   O desafio proposto envolveu o início da pipeline de dados da empresa parceira, sendo dividido em três etapas. A primeira (denominada Landing Zone) envolve a entrada de um arquivo. No caso do desafio proposto, um arquivo .csv. a segunda (denominada Bronze) tratava-se da definição do identificador único das informações do arquivo (ID), a escolha de colunas que geram um hash e a exclusão de informações sem relevância. Por fim, a terceira etapa (denominada Silver) é onde foram aplicadas as regras de negócio, além da possibilidade de criar relacionamentos de 'De/Para' para a conversão de informação para dados mais consumívels.
 
   A equipe Wiz propôs e entregou a solução 'Pipeline Configurator', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados MySQL.
-
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
-
+  
 [GIT](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
 #### Tecnologias Utilizadas
@@ -170,7 +168,6 @@ Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a 
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
 - Java: sei fazer com autonomia;
 - Spring Boot: sei fazer com facilidade (Security, JWT, mapeamento de entidades, repositórios, serviços e controllers);
 - SQL: sei fazer com autonomia (DDL e DQL);
