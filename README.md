@@ -149,7 +149,7 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
   A equipe Wiz propôs e entregou a solução 'Pipeline Configurator', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados MySQL.
 
   **Funcionalidades**:
-- � Landing Zone: Entrada de arquivos CSV
+- 🛬 Landing Zone: Entrada de arquivos CSV
 - 🥉 Bronze: Definição de IDs únicos e seleção de colunas
 - 🥈 Silver: Aplicação de regras de negócio e relacionamentos
   
