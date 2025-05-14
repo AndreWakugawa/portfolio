@@ -5,52 +5,62 @@
 ![](https://github.com/AndreWakugawa/portfolio/blob/main/blob/foto.jpg)
 
 Tenho 25 anos, sou bacharel em Imagem e Som pela Universidade Federal de São Carlos e graduando do Tecnólogo em Banco de Dados pela FATEC Prof. Jessen Vidal.
-Fui estagiário de TI na empresa KLG do Brasil durante 1 ano entre o período de mai/2024 - mai/2025.
+Em 2024 fui admitido como estagiário de TI na empresa KLG do Brasil, onde pude atuar como suporte, analista de dados, engenheiro de dados e desenvolvedor.
 
-Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação.
+## 📫 Contatos
 
-## Contatos
-* [GIT](https://github.com/AndreWakugawa)
-* [LinkedIn](https://br.linkedin.com/in/andrewakugawa)
+- **[GitHub](https://github.com/AndreWakugawa)** - Meus projetos e contribuições em organizações
+- **[LinkedIn](https://br.linkedin.com/in/andrewakugawa)** - Perfil profissional e network
 
-## Meus Principais Conhecimentos
-* Oracle Database
-* PostgreSQL
-* PL/SQL
-* PL/pgSQL
-* Java
-  * Spring Boot
-  * JPA & Hibernate
-  * Spring Security
-  * JWT, Bearer Tokens, Session Cookies
-* Apache Spark
-* Docker e docker compose
-* Python
-* Javascript e Typescript
-* AWS
-* Object Oriented Programming (OOP)
+## 💻 Principais Habilidades
+
+### 🗃️ Banco de Dados
+- **Relacionais**:
+  - Oracle Database e PL/SQL
+  - PostgreSQL e PL/pgSQL
+- **Não-relacionais**:
+  - MongoDB
+  - Redis
+
+### 👨‍💻 Linguagens de Programação
+- **Java** - Desenvolvimento back-end
+- **Python** - Scripts funcionais e automação
+- **JavaScript/TypeScript** - Desenvolvimento front-end e consumo de APIs
+
+### 🛠️ Ferramentas e Tecnologias
+- **Spring Ecosystem**:
+  - Spring Boot (desenvolvimento de APIs)
+  - Spring Security (autenticação/autorização)
+  - JPA & Hibernate (ORM)
+- **Autenticação**:
+  - JWTs, Bearer Tokens
+- **Processamento de Dados**:
+  - Apache Spark (ETL)
+- **Infraestrutura**:
+  - Docker e Docker Compose
+  - AWS (conhecimentos básicos)
+
+### 📚 Conceitos
+- **OOP** - Programação Orientada a Objetos
+- **Design Patterns** - Factory, Publisher, Observer, Builder, Singleton
+- **Metodologias Ágeis** - SCRUM, Kanban
 
 ## Meus Projetos
 
-### Em 2023-1
+### 📊 eVal360 - Sistema de Avaliação 360° (2023-1)
+[🔗 Repositório no GitHub](https://github.com/AndreWakugawa/DevMinds)
+
 O primeiro projeto desenvolvido durante a graduação foi proposto pela empresa-cliente fictícia PBLTeX com o desafio de desenvolver desenvolver uma aplicação de Avaliação 360° para uso interno da instituição de ensino. 
 
 A solução foi entregue pela equipe de desenvolvimento DevMinds na qual atuei como Product Owner. A aplicação com o nome de 'eVal360' foi desenvolvida para uso em terminal, com algumas janelas de dashboards que aparecem em algumas interações. Um arquivo csv foi utilizado como um pseudo banco de dados. Como um desafio do próprio grupo, decidimos desenvolver 100% em Python.
 
-O projeto teve os seguintes requisitos:
-- Autenticação (login)
-> Uma comparação dos inputs de email e senha com dados existentes no arquivo 'usersDB.csv' que simula uma tabela de usuários.
-- Controle de acesso
-> Uma simples verificação do nível do usuário disponível em 'usersDB.csv' que direciona para rotas diferente caso o nível seja de **Administrador** ou **Usuário**.
-- Controle de turmas e times
-> Criação de turmas (cursos) e times (equipes) dentro dessas turmas com validação de um usuário por equipe dentro de uma mesma turma.
-- Controle de Sprints
-> Possibilidade de configuração da quantidade e duração em dias das Sprints durante a criação de uma turma nova.
-- Dashboards gerenciais
-> Visualização em gráficos para gestores analisarem as notas dos fatores de avaliação de individuos em uma turma e médias de uma turma com identificação visual para fatores com notas acima e abaixo da média.
-
-[Repositório do eVal360](https://github.com/AndreWakugawa/DevMinds)
-
+**Principais Funcionalidades**:
+- Autenticação de usuários
+- Controle de acesso por níveis (Admin/Usuário)
+- Gerenciamento de turmas e equipes
+- Controle de Sprints com configuração personalizada
+- Dashboards gerenciais com visualização de métricas
+  
 #### Tecnologias Utilizadas
 - Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento da linguagem Python;
 - Python: principal e única linguagem de desenvolvimento em que foi desenvolvida a toda a lógica e regras de negócio da aplicação;
@@ -62,14 +72,12 @@ O projeto teve os seguintes requisitos:
 - Git e Github: controle de versionamento e hospedagem.
 
 #### Contribuições Pessoais
-- Colaborei com a modelagem dos 'headers' dos arquivos CSV;
-- Realizei o tratamento lógico na comparação das informações de input com os dados do CSV para login, hierarquia de turma, times e pessoas;
-- Implantei a lógica de criação de sprints relacionadas à turmas;
-- Colaborei com a lógica do login com a verificação do input do usuário com os dados disponiveis no CSV;
-- Adicionei as funcionalidades CRUD para o gerenciamento de turmas;
-- Realizei a comunicação com o cliente para definição prioridades, tiragem de dúvidas e extração de informações e ajudar no desenvolvimento da aplicação.
-
-\* Todas as contribuições foram realizadas utilizando Python e CSV.
+**Minhas Contribuições**:
+- **Autenticação Segura**: Implementei o sistema de login com validação de credenciais contra arquivo CSV, simulando um banco de dados básico
+- **Gestão Acadêmica**: Desenvolvi o CRUD completo para turmas, incluindo validações de unicidade e relacionamentos
+- **Lógica de Sprints**: Criei o sistema de configuração de sprints com duração personalizável por turma
+- **Arquitetura de Dados**: Projetei a estrutura de arquivos CSV que serviu como base de dados para toda a aplicação
+- **Coordenação**: Atuei como PO, organizando sprints, priorizando backlog e mantendo comunicação constante com stakeholders
 
 #### Hard Skills
 - Python: aprendi a fazer com consultas;
@@ -82,11 +90,11 @@ O projeto teve os seguintes requisitos:
 - Comunicação: compartilhamento de informações em dailies, sprint reviews e reuniões;
 - Iniciativa: procurei técnicas de gerenciamento de projeto, apresentei para a equipe e apliquei durante o desenvolvimento. Dessa maneira, foi mais simples identificar o escopo e as características do projeto e dar um pontapé inicial no desenvolvimento;
 
-### Em 2023-2
+### 🎓 SGTG - Sistema Gerenciador de TGs (2023-2)
+[🔗 Repositório no GitHub](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
+
 O desafio proposto foi o desenvolvimento de uma ferramenta para gerenciamento de trabalhos de graduação de uso interno da instituição de ensino, sendo o cliente a própria FATEC. A aplicação deve gerir as matérias/semestres, alunos matriculados nas matérias, regras de negócio envolvendo os diferentes tipos de TG, entrega de atividades, atribuição de notas, retorno de feedbacks e geração de relatórios.
 A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação), uma aplicação em desktop para uso dos próprios professores que ministram as matérias de Trabalho de Graduação. A aplicação recebe como entrada um arquivo de respostas de um Google Forms em CSV e popula os dados dos alunos para seu uso.
-
-[SGTG (Sistema Gerenciador de Trabalhos de Graduação)](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
 
 #### Tecnologias Utilizadas
 - Java: linguagem para manuseio dos dados e manipulação da lógica da aplicação;
@@ -105,18 +113,16 @@ A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação)
 
 Inicialmente comecei atuando apenas como desenvolvedor, porém, por volta do início da segunda sprint, a pessoa responsável pelo papel de Product Owner teve que trancar o curso. Com isso, assumi o papel de Product Owner até a entrega final, além de manter minhas responsabilidades como desenvolvedor.
 
-- Realizei a modelagem de dados da aplicação utlizando a ferramenta Diagrams.net para desenho inicial do ERD.
-<details>
+- Modelagem completa do banco de dados (ERD)<details>
 <summary>Relacionamento de dados</summary>
 <br>
- 
  ![*Print da ferramenta DBeaver](https://github.com/AndreWakugawa/portfolio/blob/main/blob/dbSGTG.png)
 </details>
 
-- Criei o script DDL para criação do banco de dados seguindo o ERD acima;
+- Criação dos scripts DDL para o MySQL
 - Após assumir como Product Owner corri atrás para cobrir as pendências da falta de comunicação que surgiram com o representante anterior;
-- Realizei o estudo inicial do JDBC e ajudei os membros responsáveis pelo back-end desenvolver as conexões da aplicação Java com o banco de dados;
-- Colaborei com a criação de DAOs e objetos POJO que representam as entidades do banco de dados;
+- Realizei a conexão entre aplicação Java e banco de dados via JDBC e ajudei os membros responsáveis pelo back-end desenvolver as conexões da aplicação Java com o banco de dados;
+- Implementação de DAOs e objetos POJO que representam as entidades do banco de dados;
 - Colaborei com queries SQL para que busquem as informações corretas no banco de dados;
 
 Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
@@ -133,15 +139,20 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Comunicação: me esforcei em ir atrás de informações com o cliente e entregar ao time de desenvolvimento. Com isso foi possível entender e entregar requisitos que estavam faltantes no escopo do projeto até então;
 - Iniciativa: tomei iniciativa para aprender diversas tecnologias e linguagens novas, sendo elas Java, JDBC, Maven, SQL (MySQL) e compartilhei o conhecimento sempre que membros da equipe tinham dúvidas.
 
-### Em 2024-1
+### ⚙️ Pipeline Configurator (2024-1)
+[GIT](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
+
   O problema foi apresentado pela parceira Dom Rock, uma empresa de dados e tecnologia de São José dos Campos que oferece serviços de tratamento de dados. A parceira recebe diversas entradas de dados como arquivos .xlsx ou .csv até mais complexos como gravações de voz e fotos e trata as informações através de uma pipeline que transforma os dados em consumíveis para a empresa cliente tomar decisões com base em dados.
   
   O desafio proposto envolveu o início da pipeline de dados da empresa parceira, sendo dividido em três etapas. A primeira (denominada Landing Zone) envolve a entrada de um arquivo. No caso do desafio proposto, um arquivo .csv. a segunda (denominada Bronze) tratava-se da definição do identificador único das informações do arquivo (ID), a escolha de colunas que geram um hash e a exclusão de informações sem relevância. Por fim, a terceira etapa (denominada Silver) é onde foram aplicadas as regras de negócio, além da possibilidade de criar relacionamentos de 'De/Para' para a conversão de informação para dados mais consumívels.
 
   A equipe Wiz propôs e entregou a solução 'Pipeline Configurator', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados MySQL.
-  
-[GIT](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
+  **Funcionalidades**:
+- � Landing Zone: Entrada de arquivos CSV
+- 🥉 Bronze: Definição de IDs únicos e seleção de colunas
+- 🥈 Silver: Aplicação de regras de negócio e relacionamentos
+  
 #### Tecnologias Utilizadas
 - HTML: linguagem de programação para criação de páginas Web;
 - CSS: linguagem para aplicação de estilos em códigos HTML;
