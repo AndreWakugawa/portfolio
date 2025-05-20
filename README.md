@@ -190,6 +190,41 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Solução de problemas: desenvolvi e apliquei algumas das regras de negócio do cliente nos serviços;
 - Pensamento analítico: análise e tratamento de dados que foram construídos em um objeto para ser facilmente consumido    
 
+### 📍 Geo IoT (2024-2)
+[🔗 Repositório no GitHub](https://github.com/AndreWakugawa/geo-iot-2024-1)
+[🔗 Repositório do Client](https://github.com/AndreWakugawa/geoIoT-client)
+[🔗 Repositório do Server](https://github.com/AndreWakugawa/geoIoT-server)
+
+  O segundo projeto de 2024 foi proposto pela empresa parceira, especializada em tecnologias IoT, Ito1. O desafio proposto foi o desenvolvimento de uma ferramenta que consome dados de geolocalização de dispositivos IoT e disponibiliza de maneira visual em um mapa com o objetivo de monitoramento de espaço e tempo.
+
+  A equipe Manolito propôs e entregou a solução 'Geo IoT', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados Oracle Cloud.
+  **Funcionalidades**:
+    - 🗺️ Plotagem dos dados de geolocalização em um mapa;
+    - 🔍 Funções de filtro de dispositivos por tipo, localização e período;
+    - ▶️ Funcionalidade de 'player' para acompanhar o caminho de um dispositivo no mapa entre dois períodos;
+    - 📐 Funcionalidade de criação de áreas de interesse para alertas de entrada e saída;
+    - 🔐 Autenticação de níveis de acesso diferentes para uso de funções de administrador.
+
+  #### Tecnologias Utilizadas
+- HTML: linguagem de programação para criação de páginas Web;
+- CSS: linguagem para aplicação de estilos em códigos HTML;
+- TypeScript: linguagem variante de JavaScript que adiciona tipagem ao código;
+- Vue.js: framework JavaScript para o desenvolvimento de SPA (Single Page Application) e facilitador na criação de códigos reutilzáveis;
+- OpenLayers: biblioteca JavaScript open-source com APIs e ferramentas para exibição de mapas em aplicações web;
+- Java: linguagem de programação orientada a objetos;
+- Spring Boot: framework Java para desenvolvimento de Rest APIs;
+- Oracle Cloud: ecossistema online da Oracle que foi utilizado para criação e utilização do ambiente de dados da aplicação;
+- Oracle Database: SGBD proprietário da Oracle, no contexto da apliucação utilizado on-cloud dentro da Oracle Cloud.
+- Oracle Spatial: componente GIS (Geographic Information System) da Oracle Database com schemas e funções SQL para melhor gerenciamento e manuseio dos dados geográficos;
+- Redis: banco de dados NoSQL que utiliza a memória disponível para armazenar os relacionamentos da chave. Comumente utilizado para estocar cache.
+- IntelliJ IDEA: IDE para desenvolvimento Java;
+- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
+- Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
+- Discord: ferramenta para comunicação interna do grupo;
+- Slack: ferramenta para comunicação com o cliente
+
+
+
 ### Em 2025-1
 Mesmo formato
 
