@@ -113,13 +113,13 @@ A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação)
 
 Inicialmente comecei atuando apenas como desenvolvedor, porém, por volta do início da segunda sprint, a pessoa responsável pelo papel de Product Owner teve que trancar o curso. Com isso, assumi o papel de Product Owner até a entrega final, além de manter minhas responsabilidades como desenvolvedor.
 
-- Modelagem completa do banco de dados (ERD)<details>
-<summary>Relacionamento de dados</summary>
-<br>
- ![*Print da ferramenta DBeaver](https://github.com/AndreWakugawa/portfolio/blob/main/blob/dbSGTG.png)
+<details>
+<summary>Modelagem completa do banco de dados (ERD) (Relacionamento dos dados disponível nessa gaveta)</summary>
+
+![Print da ferramenta DBeaver](https://raw.githubusercontent.com/AndreWakugawa/portfolio/main/blob/dbSGTG.png)
 </details>
 
-- Criação dos scripts DDL para o MySQL
+- Criação dos scripts DDL para o MySQL utilizando migrações flyway.
 - Após assumir como Product Owner corri atrás para cobrir as pendências da falta de comunicação que surgiram com o representante anterior;
 - Realizei a conexão entre aplicação Java e banco de dados via JDBC e ajudei os membros responsáveis pelo back-end desenvolver as conexões da aplicação Java com o banco de dados;
 - Implementação de DAOs e objetos POJO que representam as entidades do banco de dados;
@@ -140,7 +140,7 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Iniciativa: tomei iniciativa para aprender diversas tecnologias e linguagens novas, sendo elas Java, JDBC, Maven, SQL (MySQL) e compartilhei o conhecimento sempre que membros da equipe tinham dúvidas.
 
 ### ⚙️ Pipeline Configurator (2024-1)
-[GIT](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
+[🔗 Repositório no GitHub](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
   O problema foi apresentado pela parceira Dom Rock, uma empresa de dados e tecnologia de São José dos Campos que oferece serviços de tratamento de dados. A parceira recebe diversas entradas de dados como arquivos .xlsx ou .csv até mais complexos como gravações de voz e fotos e trata as informações através de uma pipeline que transforma os dados em consumíveis para a empresa cliente tomar decisões com base em dados.
   
@@ -176,7 +176,6 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Implementei o Spring Security com JWTs, separando níveis de acesso entre admin, landing zone, bronze e silver;
 - Colaborei com a jornada do dado <Repository, Service, Controller> para várias entidades;
 - Desenvolvi vários métodos que implementam a regra de negócio requisitada pelo cliente na camada de serviço;
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
 
 #### Hard Skills
 - Java: sei fazer com autonomia;
@@ -192,20 +191,23 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 
 ### 📍 Geo IoT (2024-2)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/geo-iot-2024-1)
+
 [🔗 Repositório do Client](https://github.com/AndreWakugawa/geoIoT-client)
+
 [🔗 Repositório do Server](https://github.com/AndreWakugawa/geoIoT-server)
 
   O segundo projeto de 2024 foi proposto pela empresa parceira, especializada em tecnologias IoT, Ito1. O desafio proposto foi o desenvolvimento de uma ferramenta que consome dados de geolocalização de dispositivos IoT e disponibiliza de maneira visual em um mapa com o objetivo de monitoramento de espaço e tempo.
 
   A equipe Manolito propôs e entregou a solução 'Geo IoT', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados Oracle Cloud.
+  
   **Funcionalidades**:
-    - 🗺️ Plotagem dos dados de geolocalização em um mapa;
-    - 🔍 Funções de filtro de dispositivos por tipo, localização e período;
-    - ▶️ Funcionalidade de 'player' para acompanhar o caminho de um dispositivo no mapa entre dois períodos;
-    - 📐 Funcionalidade de criação de áreas de interesse para alertas de entrada e saída;
-    - 🔐 Autenticação de níveis de acesso diferentes para uso de funções de administrador.
+- 🗺️ Plotagem dos dados de geolocalização em um mapa;
+- 🔍 Funções de filtro de dispositivos por tipo, localização e período;
+- ▶️ Funcionalidade de 'player' para acompanhar o caminho de um dispositivo no mapa entre dois períodos;
+- 📐 Funcionalidade de criação de áreas de interesse para alertas de entrada e saída;
+- 🔐 Autenticação de níveis de acesso diferentes para uso de funções de administrador.
 
-  #### Tecnologias Utilizadas
+#### Tecnologias Utilizadas
 - HTML: linguagem de programação para criação de páginas Web;
 - CSS: linguagem para aplicação de estilos em códigos HTML;
 - TypeScript: linguagem variante de JavaScript que adiciona tipagem ao código;
@@ -223,6 +225,19 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Discord: ferramenta para comunicação interna do grupo;
 - Slack: ferramenta para comunicação com o cliente
 
+#### Contribuições Pessoais
+- Implementei e configurei a conexão do Oracle Cloud com o servidor utilizando wallet;
+- Colaborei e auxiliei colegas no mapeamento de entidades JPA espelhando o banco de dados;
+- Criei uma pipeline de CI de 'build' do backend logo no começo do desenvolvimento, evitando o envio de código quebrado para o desenvolvimento;
+  > [Link do .yml do Workflow](https://github.com/AndreWakugawa/geoIoT-server/blob/main/.github/workflows/setup-java.yml)
+- Configurei e compartilhei o conhecimento sobre o Oracle Spatial, ferramenta essencial para os dados de geolocalização, com o resto do grupo;
+  > [Commit da conexão customizada para o Oracle Spatial](https://github.com/AndreWakugawa/geoIoT-server/commit/952c15449821c36b8275777e6418b75eb9170ef8)
+  > [Commit de adição e uso do Oracle Spatial](https://github.com/AndreWakugawa/geoIoT-server/commit/0c6ebc782bf25750900e61058568691100d96c81)
+  > ![Query para busca de objetos geométricos](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/oracle_spatial_query.png)
+- Colaborei com o desenvolvimento de CRUDs de formas, usuários e dispositivos;
+- Implementei o Spring Security com JWTs, desabilitação de CORS e aberturas de exceção para endpoints do Swagger para acessos sem autenticação;
+  > ![SecurityConfig](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/security_config_jwt.png)
+- Desenvolvi vários métodos que implementam a regra de negócio requisitada pelo cliente na camada de serviço;
 
 
 ### Em 2025-1
