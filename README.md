@@ -5,7 +5,7 @@
 ![](https://github.com/AndreWakugawa/portfolio/blob/main/blob/foto.jpg)
 
 Tenho 25 anos, sou bacharel em Imagem e Som pela Universidade Federal de São Carlos e graduando do Tecnólogo em Banco de Dados pela FATEC Prof. Jessen Vidal.
-Em 2024 fui admitido como estagiário de TI na empresa KLG do Brasil, onde pude atuar como suporte, analista de dados, engenheiro de dados e desenvolvedor.
+Atualmente atuo como Engenheiro de Software Jr. na equipe de Engenharia da Elo7, pertencente ao Grupo Enjoei.
 
 ## 📫 Contatos
 
@@ -89,7 +89,7 @@ A solução foi entregue pela equipe de desenvolvimento DevMinds na qual atuei c
 - Comunicação com o cliente: aprendi como me comunicar com cliente e como realizar perguntas para extrair informações que vão ajudar na tomada de decisões;
 - Comunicação: compartilhamento de informações em dailies, sprint reviews e reuniões;
 - Iniciativa: procurei técnicas de gerenciamento de projeto, apresentei para a equipe e apliquei durante o desenvolvimento. Dessa maneira, foi mais simples identificar o escopo e as características do projeto e dar um pontapé inicial no desenvolvimento;
-
+____
 ### 🎓 SGTG - Sistema Gerenciador de TGs (2023-2)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
 
@@ -138,7 +138,7 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Comunicação com o cliente: tive que assumir o papel durante o andamento do projeto e buscar soluções intermediárias com o cliente para uma entrega cobrindo requisitos que não haviam sido discutidos até então. Com isso, acredito que ajudei na construção de um entregável admissível que evitou a não aceitação de uma sprint.
 - Comunicação: me esforcei em ir atrás de informações com o cliente e entregar ao time de desenvolvimento. Com isso foi possível entender e entregar requisitos que estavam faltantes no escopo do projeto até então;
 - Iniciativa: tomei iniciativa para aprender diversas tecnologias e linguagens novas, sendo elas Java, JDBC, Maven, SQL (MySQL) e compartilhei o conhecimento sempre que membros da equipe tinham dúvidas.
-
+____
 ### ⚙️ Pipeline Configurator (2024-1)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
@@ -188,7 +188,7 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
 - Iniciativa: propus diversas ferramentas e ideias que foram adotadas ao longo do projeto;
 - Solução de problemas: desenvolvi e apliquei algumas das regras de negócio do cliente nos serviços;
 - Pensamento analítico: análise e tratamento de dados que foram construídos em um objeto para ser facilmente consumido    
-
+____
 ### 📍 Geo IoT (2024-2)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/geo-iot-2024-1)
 
@@ -235,15 +235,115 @@ Apresente suas contribuições no projeto. Foque nas funcionalidades em que voc�
   > [Commit de adição e uso do Oracle Spatial](https://github.com/AndreWakugawa/geoIoT-server/commit/0c6ebc782bf25750900e61058568691100d96c81)
   > ![Query para busca de objetos geométricos](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/oracle_spatial_query.png)
 - Colaborei com o desenvolvimento de CRUDs de formas, usuários e dispositivos;
-- Implementei o Spring Security com JWTs, desabilitação de CORS e aberturas de exceção para endpoints do Swagger para acessos sem autenticação;
+- Implementei o Spring Security com JWTs e aberturas de exceção para endpoints do Swagger para acessos sem autenticação;
   > ![SecurityConfig](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/security_config_jwt.png)
 - Desenvolvi vários métodos que implementam a regra de negócio requisitada pelo cliente na camada de serviço;
 
+#### Hard Skills
 
-### Em 2025-1
-Mesmo formato
+- Java: sei fazer com autonomia;
+- Oracle Cloud: sei fazer com consulta;
+- Oracle Spatial: sei fazer com consulta;
+- CI: sei fazer com autonomia;
+- Spring Boot: sei fazer com autonomia (Security, JUnit, REST APIs);
+- Git/GitHub: sei fazer com autonomia;
 
-### Em 2025-1
+#### Soft Skills
+
+- Solução de problemas: desenvolvi queries complexas e filtros de segurança para atender aos requisitos do projeto;
+- Trabalho em equipe: colaborei ativamente através de pull requests, code reviews e discussões técnicas;
+- Comunicação: participei de reuniões de alinhamento para definir a arquitetura da API e as regras de negócio;
+- Adaptabilidade: fui responsavel por aprender e ensinar o grupo sobre Oracle Cloud e Oracle Spatial no início do projeto.
+
+____
+### 📊 Youtan Dash - Dashboard de Indicadores de Projetos (2025-1)
+
+[🔗 Repositório no GitHub](https://github.com/manolito-fatec/dashflow-2025-1)
+
+[🔗 Repositório do Client](https://github.com/manolito-fatec/web-client-2025-1)
+
+[🔗 Repositório do Server](https://github.com/manolito-fatec/web-server-2025-1)
+
+  O desafio foi proposto pela empresa parceira Youtan, desenvolvedora de software de São José dos Campos que atende diversos clientes. Ele consistiu em desenvolver uma aplicação para uso interno da empresa-cliente que se integra a ferramentas de gestão de projeto Taiga. O objetivo principal é gerar e visualizar indicadores sobre o andamento dos projetos, auxiliando na tomada de decisões estratégicas da empresa.
+  Para isso criamos o 'Youtan Dash', uma aplicação web com front-end em Vue.js, servidor Java Spring Boot com serviços Apache Spark e banco de dados PostgreSQL.
+  Também foram requisitos a aplicação de DevOps e o desenvolvimento de um Data Warehouse.
+
+**Funcionalidades**:
+
+- 🔗 Integração com APIs das ferramentas Taiga, Jira e Trello, além de API aberta para integração com outras ferramentas;
+- 📈 Dashboards com métricas de produtividade como:
+  - Gráfico de Tasks/Cards criados e completados ao longo do tempo;
+  - Tempo médio de finalização de cards;
+  - Total de cards;
+  - Cards identificados como 'retrabalhos'.
+- 👤 Controle de acesso por níveis de usuário (Operador, Gestor, Admin).
+- Controle e acesso a dados pertinentes ao nível de usuário;
+- Possibilidade de uso externo com a exportação dos dados de Dashboards para .csv.
+
+#### Tecnologias Utilizadas
+- Back-end:
+  - Java: linguagem de programação orientada a objetos;
+  - Spring Boot: framework Java para desenvolvimento de Rest APIs;
+  - Spring Security: framework com soluções para autenticação e autorização em aplicações Java;
+  - PostgreSQL: SGBD objeto-relacional de código aberto;
+  - Flyway: ferramenta para migração de banco de dados que gerencia e aplica scripts SQL versionados;
+  - Maven: ferramenta de automação de compilação e gerenciamento de dependências primariamente utilizada em projetos Java;
+  - Apache Spark: mecanismo para processamento de dados em grande escala (Utilizado para o processo de ETL);
+  - JWT: token para para transmitir informações de forma compacta e segura entre duas partes, comumente usado para autenticação e autorização sem uso de sessão;
+  - JUnit: framework de código aberto para a criação e execução de testes unitários em Java.
+
+- Front-end:
+  -HTML: linguagem de programação para criação de páginas Web;
+  - CSS: linguagem para aplicação de estilos em códigos HTML;
+  - TypeScript: linguagem variante de JavaScript que adiciona tipagem ao código;
+  - Vue.js: framework JavaScript para o desenvolvimento de SPA (Single Page Application) e facilitador na criação de códigos reutilzáveis;
+  - PrimeVue: biblioteca open source que fornece um conjunto de componentes de UI (User Interface) prontos para o Vue.js;
+  - Axios: cliente HTTP baseado em promessas para fazer requisições a endpoints (APIs ou servidores back-end).
+
+- DevOps:
+  - GitHub Actions: plataforma de automação integrada ao GitHub, utilizada para construir workflows de CI/CD (Integração e Entrega Contínua);
+  - SonarCloud: serviço em nuvem para qualidade e segurança de código, que se conecta ao repositório para realizar análises estáticas.
+
+- Ferramentas:
+  - IntelliJ IDEA: IDE para desenvolvimento Java;
+  - Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
+  - Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
+  - Swagger: ferramenta que auxilia na edição e criação de definições para a API. Utilizado internamente e para disponibilizar a API da aplicação ao cliente;
+  - Discord: ferramenta para comunicação interna do grupo;
+  - Slack: ferramenta para comunicação com o cliente
+
+#### Contribuições Pessoais
+
+Atuei como desenvolvedor back-end, com foco na construção da API REST e na implementação das regras de negócio. Minhas principais contribuições incluem:
+
+- Configurei o CI desde a primeira semana (requisito de DevOps), o que evitou dores de cabeça com branches quebradas.
+- Desenhei e implementei o Data Warehouse para consulta pelos Dashboards;
+- Desenhei e implementei o DB funcional da aplicação;
+- Auxiliei nas configurações das migrações iniciais do DB funcional com Flyway, garantindo um versionamento consistente do schema do banco de dados ao longo do desenvolvimento;
+- Implementei endpoints para a visualização de métricas com múltiplos parâmetros como filtros opcionais e dados defaults caso não fornecidos. Isso permitiu consultas mais dinâmicas e auxiliou a equipe de front-end;
+- Fui responsável pela segurança da aplicação. Configurei todo o Spring Security com uso de JWTs;
+- Implementei um filtro de logs customizado (LoggingFilter) que se integra à cadeia de filtros do framework, interceptando e capturando as requisições API e registrando informações essenciais (método HTTP, URI, usuário solicitante) antes de prosseguirem para os controllers. É uma funcionalidade importante para auditoria.
+- Participei das decisões de arquitetura, ajudando a definir e implementar o padrão de camadas da aplicação (Controller, Service, Repository).
+- Colaborei no desenvolvimento da lógica do processo de ETL via Apache Spark com a API da ferramenta open-source Taiga com a busca de somente dados relevantes para a aplicação e tratando diferentes formatos de dados para que fossem corretamente persistidos e disponibilizados para os dashboards no nosso Data Warehouse.
+
+#### Hard Skills
+
+- Java: sei fazer com autonomia;
+- CI: sei fazer com autonomia;
+- Spring Boot: sei fazer com autonomia (Security, JUnit, JPA Specifications, REST APIs);
+- SQL (PostgreSQL): sei fazer com autonomia (DDL e DQL);
+- Git/GitHub: sei fazer com autonomia;
+- Apache Spark (para ETL): sei fazer com consulta.
+
+#### Soft Skills
+
+- Solução de problemas: desenvolvi queries complexas e filtros de segurança para atender aos requisitos do projeto;
+- Trabalho em equipe: colaborei ativamente através de pull requests, code reviews e discussões técnicas;
+- Comunicação: participei de reuniões de alinhamento para definir a arquitetura da API e as regras de negócio;
+- Flexibilidade: trabalhei em diversas frentes sem depender de terceiros.
+
+____
+### Em 2025-2
 Mesmo formato
 
 
