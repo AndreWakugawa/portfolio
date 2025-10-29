@@ -276,9 +276,8 @@ ____
   - Tempo médio de finalização de cards;
   - Total de cards;
   - Cards identificados como 'retrabalhos'.
-- 👤 Controle de acesso por níveis de usuário (Operador, Gestor, Admin).
-- Controle e acesso a dados pertinentes ao nível de usuário;
-- Possibilidade de uso externo com a exportação dos dados de Dashboards para .csv.
+- 👤 Controle de acesso e acessibilidade a dados pertinentes por níveis de usuário (Operador, Gestor, Admin).
+- 📤 Possibilidade de uso externo com a exportação dos dados de Dashboards para .csv.
 
 #### Tecnologias Utilizadas
 - Back-end:
