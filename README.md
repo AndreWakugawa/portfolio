@@ -316,14 +316,33 @@ ____
 Atuei como desenvolvedor back-end, com foco na construção da API REST e na implementação das regras de negócio. Minhas principais contribuições incluem:
 
 - Configurei o CI desde a primeira semana (requisito de DevOps), o que evitou dores de cabeça com branches quebradas.
+  > [Link do histórico de commits no Workflow](https://github.com/AndreWakugawa/web-server-2025-1/commits/main/.github/workflows/java-build.yml)
 - Desenhei e implementei o Data Warehouse para consulta pelos Dashboards;
 - Desenhei e implementei o DB funcional da aplicação;
 - Auxiliei nas configurações das migrações iniciais do DB funcional com Flyway, garantindo um versionamento consistente do schema do banco de dados ao longo do desenvolvimento;
+  > [Link das migrations Flyway](https://github.com/AndreWakugawa/web-server-2025-1/tree/main/src/main/resources/db/dashflow-db-versioning/migration)
 - Implementei endpoints para a visualização de métricas com múltiplos parâmetros como filtros opcionais e dados defaults caso não fornecidos. Isso permitiu consultas mais dinâmicas e auxiliou a equipe de front-end;
+  > ![Request paginado com params e defaults](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/request-paginado.png)
 - Fui responsável pela segurança da aplicação. Configurei todo o Spring Security com uso de JWTs;
 - Implementei um filtro de logs customizado (LoggingFilter) que se integra à cadeia de filtros do framework, interceptando e capturando as requisições API e registrando informações essenciais (método HTTP, URI, usuário solicitante) antes de prosseguirem para os controllers. É uma funcionalidade importante para auditoria.
+  > ![Filtro interno de logs](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/log-filtro1.png)
+  > ![Log no db durante o filtro acima](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/log-filtro2.png)
 - Participei das decisões de arquitetura, ajudando a definir e implementar o padrão de camadas da aplicação (Controller, Service, Repository).
-- Colaborei no desenvolvimento da lógica do processo de ETL via Apache Spark com a API da ferramenta open-source Taiga com a busca de somente dados relevantes para a aplicação e tratando diferentes formatos de dados para que fossem corretamente persistidos e disponibilizados para os dashboards no nosso Data Warehouse.
+- Colaborei no desenvolvimento da arquitetura e da lógica do processo de ETL via Apache Spark com a API da ferramenta open-source Taiga com a busca de somente dados relevantes para a aplicação e tratando diferentes formatos de dados para que fossem corretamente persistidos e disponibilizados para os dashboards no nosso Data Warehouse.
+  <details>
+  <summary>Commits de Handlers, Transformer, Loader e Utils do ETL</summary>
+    
+  [Link do commit de handlers com implementação do Taiga e pronto para uso posterior](https://github.com/AndreWakugawa/web-server-2025-1/commit/47d5ffc5ff5853f83a734bc2bf0e3d1d00800481)
+    
+  [Link do commit inicial do transformer](https://github.com/AndreWakugawa/web-server-2025-1/commit/a2b2f736bf65ce9ea47351577447a235ed385620)
+    
+  [Link do commit inicial do loader](https://github.com/AndreWakugawa/web-server-2025-1/commit/ce442327050bbaf96bab973bf66180c1596b24cd)
+    
+  [Link dos utils criados para auxilio no Spark](https://github.com/AndreWakugawa/web-server-2025-1/blob/main/src/main/java/com/manolito/dashflow/util/SparkUtils.java)
+    
+
+  </details>
+
 
 #### Hard Skills
 
