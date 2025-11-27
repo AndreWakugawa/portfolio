@@ -4,7 +4,7 @@
 
 ![](https://github.com/AndreWakugawa/portfolio/blob/main/blob/foto.jpg)
 
-Tenho 25 anos, sou bacharel em Imagem e Som pela Universidade Federal de São Carlos e graduando do Tecnólogo em Banco de Dados pela FATEC Prof. Jessen Vidal.
+Tenho 26 anos, sou bacharel em Imagem e Som pela Universidade Federal de São Carlos e graduando do Tecnólogo em Banco de Dados pela FATEC Prof. Jessen Vidal.
 Atualmente atuo como Engenheiro de Software Jr. na equipe de Engenharia da Elo7, pertencente ao Grupo Enjoei.
 
 ## 📫 Contatos
@@ -361,11 +361,29 @@ Atuei como desenvolvedor back-end, com foco na construção da API REST e na imp
 - Flexibilidade: trabalhei em diversas frentes sem depender de terceiros.
 
 ____
-### Em 2025-2
-Mesmo formato
 
+### 🤖 Pardal - Gerenciamento Inteligente de Tickets e LGPD (2025-2)
 
+[🔗 Repositório Principal](https://github.com/AndreWakugawa/pardal-2025)
 
+[🔗 Repositório do Client](https://github.com/AndreWakugawa/web-client-2025-2)
 
+[🔗 Repositório do Server](https://github.com/AndreWakugawa/web-server-2025-2)
 
+[🔗 Repositório de IA](https://github.com/AndreWakugawa/ai-server-2025-2)
+
+  O desafio do ultimo semestre envolveu a modernização do sistema de suporte do cliente real Pro4Tech que enfrentava dificuldades com o controle manual de tickets em uma base de dados legada, falta de histórico consolidado e ausência de indicadores de desempenho. Além disso, havia uma necessidade crítica de adequação à Lei Geral de Proteção de Dados (LGPD) no manuseio de informações sensíveis. Nos foi disponibilizado uma base de dados fictícia para trabalharmos a necessidade real do cliente.
+  A equipe Manolito propôs e entregou a solução 'Pardal', uma plataforma completa de gerenciamento de chamados que centraliza o atendimento, aplica inteligência artificial para insights preditivos e garante a anonimização automática de dados sensíveis. A arquitetura envolveu um front-end em Vue.js, back-end em Java Spring Boot integrado a scripts Python para ETL e IA, utilizando bancos de dados PostgreSQL (relacional) e MongoDB (Não-relacional).
+
+**Funcionalidades**
+
+- 🛡️ Modernização LGPD: Identificação e anonimização automática de dados sensíveis em campos de texto livre utilizando Regex e NLP (Processamento de Linguagem Natural);
+
+- 🧠 Insights Preditivos: Utilização de IA para prever riscos de estouro de SLA (Service Level Agreement) e classificar tickets;
+
+- 📈 Dashboards Gerenciais: Visualização de KPIs como tempo médio de resolução, volume de tickets e taxa de recorrência;
+
+- 🔍 Busca Avançada: Sistema de filtragem dinâmica por múltiplos critérios (status, categoria, agente, prioridade);
+
+- 📤 Relatórios Personalizados: Exportação de dados e gráficos dos dashboards em formatos PDF e CSV.
 
