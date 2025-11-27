@@ -387,3 +387,69 @@ ____
 
 - 📤 Relatórios Personalizados: Exportação de dados e gráficos dos dashboards em formatos PDF e CSV.
 
+
+#### Tecnologias Utilizadas
+##### Backend e Dados
+- Java: Linguagem principal para o desenvolvimento da API e regras de negócio;
+- Spring Boot: Framework para criação de microsserviços e REST APIs;
+- Spring Security + JWT: Gestão de autenticação e autorização stateless;
+- JPA / Hibernate: Persistência de dados relacionais;
+- MongoDB & MongoTemplate: Banco de dados NoSQL e ferramenta do Spring para construção de queries complexas em documentos;
+- PostgreSQL: SGBD relacional para dados estruturados do sistema;
+- Python: Utilizado para scripts de processos ETL (extração da base legada) e treinamento dos modelos de IA;
+- Docker: Containerização dos serviços para padronização de ambiente;
+- Vault: Gerenciamento seguro de segredos e credenciais;
+- Swagger: Documentação viva da API.
+
+##### Frontend
+- HTML: linguagem de programação para criação de páginas Web;
+- CSS: linguagem para aplicação de estilos em códigos HTML;
+- Vue.js: Framework JavaScript progressivo para construção da interface;
+- TypeScript: Superset de JavaScript para tipagem estática;
+- PrimeVue: Biblioteca de componentes visuais;
+- Axios: Cliente HTTP para comunicação com o back-end.
+
+##### Ferramentas
+- IntelliJ IDEA: IDE para desenvolvimento Java;
+- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
+- Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
+- Discord: ferramenta para comunicação interna do grupo;
+- Slack: ferramenta para comunicação com o cliente
+
+#### Contribuições Pessoais
+
+Atuei com foco no desenvolvimento do Back-end e na integração com os modelos de Inteligência Artificial, além de colaborar com a arquitetura de dados híbrida (SQL e NoSQL).
+- Aprendi e implementei o padrão Specification do JPA para criar filtros de busca dinâmicos e encadeáveis. Isso permitiu que o front-end enviasse combinações variadas de filtros sem a necessidade de criar múltiplos endpoints ou queries;
+  > ![Filtro de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_filtros.png)
+  > ![Uso de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_uso.png)
+- Em endpoints de Controllers, encapsulei filtros opcionais em objetos DTO, tornando o código mais limpo e a manutenção mais simples ao evitar assinaturas de métodos com excesso de parâmetros.
+- Estudei e apliquei o MongoTemplate para realizar operações no MongoDB, necessárias para armazenar e consultar os dados processados e os resultados dos modelos de IA que não se adequavam ao modelo relacional estrito.
+  > ![Uso de MongoTemplate](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/mongoTemplate.png)
+- Colaborei no treinamento e integração do modelo de IA focado na predição de estouro de SLA, auxiliando na lógica que define quais tickets necessitam de atenção prioritária.
+- Desenvolvi a funcionalidade de exportação de dados, espelhando os filtros aplicados pelo usuário no Dashboard:
+  <details>
+  <summary>Para PDF utilizei o PdfWriter do ilovepdf</summary>
+  
+  ![Link do serviço de Export de PDF](https://github.com/AndreWakugawa/web-server-2025-2/blob/main/src/main/java/com/pardal/app/service/export/PdfExportService.java)
+  </details>
+  <details>
+  <summary>Para CSV utilizei o CSVWriter do opencsv</summary>
+  
+  !![Gerador de CSV](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/CsvPrintWriter.png)
+  </details>
+
+#### Hard Skills
+
+- Java e Spring: sei fazer com autonomia;
+- JPA Specifications: sei fazer com consulta;
+- SQL (PostgreSQL): sei fazer com autonomia;
+- NoSQL (MongoDB): sei fazer com consulta;
+- Git/GitHub: sei fazer com autonomia;
+- Docker: sei fazer com autonomia.
+
+#### Soft Skills
+
+- Adaptabilidade: tive que aprender rapidamente tecnologias como MongoDB e Specification para atender aos requisitos do projeto;
+- Trabalho em equipe: o aprendizado sobre JPA Specifications foi um esforço conjunto. Estudei o conceito e ajudei a repassar para a equipe e padronizar as buscas no banco de dados;
+- Comunicação: participei de reuniões de alinhamento para definir a arquitetura da API e as regras de negócio;
+- Visão de Produto: Ao desenvolver a exportação de relatórios foquei na experiência de uso, com objetivo do arquivo baixado refletir o estado das escolhas de filtro. 
