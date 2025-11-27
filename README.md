@@ -420,8 +420,18 @@ ____
 
 Atuei com foco no desenvolvimento do Back-end e na integração com os modelos de Inteligência Artificial, além de colaborar com a arquitetura de dados híbrida (SQL e NoSQL).
 - Aprendi e implementei o padrão Specification do JPA para criar filtros de busca dinâmicos e encadeáveis. Isso permitiu que o front-end enviasse combinações variadas de filtros sem a necessidade de criar múltiplos endpoints ou queries;
-  > ![Filtro de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_filtros.png)
-  > ![Uso de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_uso.png)
+  <details>
+  <summary>Filtro de JPA Specifications</summary>
+  
+  ![Filtro de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_filtros.png)
+  
+  </details>
+  <details>
+  <summary>Uso de JPA Specifications</summary>
+  
+  ![Uso de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_uso.png)
+  </details>
+  
 - Em endpoints de Controllers, encapsulei filtros opcionais em objetos DTO, tornando o código mais limpo e a manutenção mais simples ao evitar assinaturas de métodos com excesso de parâmetros.
 - Estudei e apliquei o MongoTemplate para realizar operações no MongoDB, necessárias para armazenar e consultar os dados processados e os resultados dos modelos de IA que não se adequavam ao modelo relacional estrito.
   > ![Uso de MongoTemplate](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/mongoTemplate.png)
