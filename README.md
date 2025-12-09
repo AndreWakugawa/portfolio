@@ -48,6 +48,8 @@ Atualmente atuo como Engenheiro de Software Jr. na equipe de Engenharia da Elo7,
 ## Meus Projetos
 
 ### 📊 eVal360 - Sistema de Avaliação 360° (2023-1)
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/ee58b6af-004a-4e66-8347-4161e1aaaec5" />
+
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/DevMinds)
 
 O primeiro projeto desenvolvido durante a graduação foi proposto pela empresa-cliente fictícia PBLTeX com o desafio de desenvolver desenvolver uma aplicação de Avaliação 360° para uso interno da instituição de ensino. 
@@ -87,6 +89,8 @@ A solução foi entregue pela equipe DevMinds na qual atuei como Product Owner. 
 - Iniciativa: procurei técnicas de gerenciamento de projeto, apresentei para a equipe e apliquei durante o desenvolvimento. Dessa maneira, foi mais simples identificar o escopo e as características do projeto e dar um pontapé inicial no desenvolvimento;
 ____
 ### 🎓 SGTG - Sistema Gerenciador de TGs (2023-2)
+<img width="300" height="210" alt="image" src="https://github.com/user-attachments/assets/fa1c4d1e-8867-4ec7-bba8-41b3892ff487" />
+
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
 
 O desafio proposto foi o desenvolvimento de uma ferramenta para gerenciamento de trabalhos de graduação de uso interno da instituição de ensino, sendo o cliente a própria FATEC. A aplicação deve gerir as matérias/semestres, alunos, os diferentes tipos de TG, entrega de atividades, atribuição de notas, retorno de feedbacks e geração de relatórios.
@@ -130,6 +134,9 @@ Inicialmente comecei atuando apenas como desenvolvedor, porém, por volta do in�
 - Iniciativa: tomei iniciativa para aprender diversas tecnologias e linguagens novas, sendo elas Java, JDBC, Maven, SQL (MySQL) e compartilhei o conhecimento sempre que membros da equipe tinham dúvidas.
 ____
 ### ⚙️ Pipeline Configurator (2024-1)
+<p align="center">
+<img width="697" height="440" alt="Config Bronze" src="https://github.com/user-attachments/assets/e90855e4-a02f-4110-bdd0-5d3e89cb403b" />
+</p>
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
   O problema foi apresentado pela parceira Dom Rock. Ele envolveu o início da pipeline de dados da empresa parceira. Tivemos que desenvolver a entrada de um arquivo, a definição de um id, geração de hash e a exclusão de informações sem relevância. Por fim, a aplicação das regras de negócio e relacionamentos 'De/Para'.
@@ -171,6 +178,9 @@ ____
 - Solução de problemas: desenvolvi e apliquei algumas das regras de negócio do cliente nos serviços;
 ____
 ### 📍 Geo IoT (2024-2)
+<p align="center">
+<img width="972" height="496" alt="TelaRotaComFiltro" src="https://github.com/user-attachments/assets/60502e43-39fd-420b-94ed-4227414da2d3" />
+</p>
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/geo-iot-2024-1)
 
 [🔗 Repositório do Client](https://github.com/AndreWakugawa/geoIoT-client)
@@ -252,7 +262,9 @@ ____
 
 ____
 ### 📊 Youtan Dash - Dashboard de Indicadores de Projetos (2025-1)
-
+<p align="center">
+<img width="889" height="649" alt="image" src="https://github.com/user-attachments/assets/822f7503-5d6f-47b8-9f4f-b8a10bf572ba" />
+</p>
 [🔗 Repositório no GitHub](https://github.com/manolito-fatec/dashflow-2025-1)
 
 [🔗 Repositório do Client](https://github.com/manolito-fatec/web-client-2025-1)
@@ -340,7 +352,9 @@ Atuei como desenvolvedor back-end, minhas principais contribuições:
 ____
 
 ### 🤖 Pardal - Gerenciamento Inteligente de Tickets e LGPD (2025-2)
-
+<p align="center">
+<img width="889" height="649" alt="image" src="https://github.com/user-attachments/assets/f2b60107-5d49-437f-b5c6-9d0ce50b9e85" />
+</p>
 [🔗 Repositório Principal](https://github.com/AndreWakugawa/pardal-2025)
 
 [🔗 Repositório do Client](https://github.com/AndreWakugawa/web-client-2025-2)
