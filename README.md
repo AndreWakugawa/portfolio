@@ -360,7 +360,7 @@ ____
 
 ### 🤖 Pardal - Gerenciamento Inteligente de Tickets e LGPD (2025-2)
 <p align="center">
-<img width="889" height="649" alt="image" src="https://github.com/user-attachments/assets/f2b60107-5d49-437f-b5c6-9d0ce50b9e85" />
+<img width="859" height="447" alt="image" src="https://github.com/user-attachments/assets/9ad16f57-e846-4a15-8859-4c3441015d01" />
 </p>
 
 [🔗 Repositório Principal](https://github.com/AndreWakugawa/pardal-2025)
@@ -401,7 +401,7 @@ A arquitetura envolveu um front-end em Vue.js, back-end em Java Spring Boot inte
 - Python: Utilizado para scripts de processos ETL (extração da base legada) e treinamento dos modelos de IA;
 - Docker: Containerização dos serviços para padronização de ambiente;
 - Vault: Gerenciamento seguro de segredos e credenciais;
-- Swagger: Documentação viva da API.
+- Swagger: Documentação da API.
 
 ##### Frontend
 - HTML: linguagem de programação para criação de páginas Web;
