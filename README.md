@@ -52,7 +52,7 @@ Atualmente atuo como Engenheiro de Software Jr. na equipe de Engenharia da Elo7,
 
 O primeiro projeto desenvolvido durante a graduação foi proposto pela empresa-cliente fictícia PBLTeX com o desafio de desenvolver desenvolver uma aplicação de Avaliação 360° para uso interno da instituição de ensino. 
 
-A solução foi entregue pela equipe de desenvolvimento DevMinds na qual atuei como Product Owner. A aplicação com o nome de 'eVal360' foi desenvolvida para uso em terminal, com algumas janelas de dashboards que aparecem em algumas interações. Um arquivo csv foi utilizado como um pseudo banco de dados. Como um desafio do próprio grupo, decidimos desenvolver 100% em Python.
+A solução foi entregue pela equipe DevMinds na qual atuei como Product Owner. A aplicação 'eVal360' foi desenvolvida para uso em terminal, com algumas janelas de dashboards que aparecem em algumas interações. Um arquivo csv foi utilizado como um pseudo banco de dados. Como um desafio do próprio grupo, decidimos desenvolver 100% em Python.
 
 **Principais Funcionalidades**:
 - Autenticação de usuários
@@ -62,13 +62,9 @@ A solução foi entregue pela equipe de desenvolvimento DevMinds na qual atuei c
 - Dashboards gerenciais com visualização de métricas
   
 #### Tecnologias Utilizadas
-- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento da linguagem Python;
 - Python: principal e única linguagem de desenvolvimento em que foi desenvolvida a toda a lógica e regras de negócio da aplicação;
 - Matplotlib: biblioteca externa de Python que foi utilizada para a montagem e exibição de gráficos para os dashboards;
 - Arquivos CSV: arquivos com propósito de servir como um 'pseudo banco de dados' que substituiram o uso de SGBDs, tecnologia na qual não tinhamos conhecimento no começo do curso;
-- ClickUp: ferramenta de gestão de projetos para organização e controle interno da equipe;
-- Slack: ferramenta para comunicação com o cliente;
-- Miro: ferramenta auxiliar na gestão do projeto em que utilizamos para realizar Brainstorms, Sprint reviews, retrospectivas e técnicas de gerenciamento de projeto como as tabelas SMART e PICK;
 - Git e Github: controle de versionamento e hospedagem.
 
 #### Contribuições Pessoais
@@ -93,20 +89,16 @@ ____
 ### 🎓 SGTG - Sistema Gerenciador de TGs (2023-2)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
 
-O desafio proposto foi o desenvolvimento de uma ferramenta para gerenciamento de trabalhos de graduação de uso interno da instituição de ensino, sendo o cliente a própria FATEC. A aplicação deve gerir as matérias/semestres, alunos matriculados nas matérias, regras de negócio envolvendo os diferentes tipos de TG, entrega de atividades, atribuição de notas, retorno de feedbacks e geração de relatórios.
-A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação), uma aplicação em desktop para uso dos próprios professores que ministram as matérias de Trabalho de Graduação. A aplicação recebe como entrada um arquivo de respostas de um Google Forms em CSV e popula os dados dos alunos para seu uso.
+O desafio proposto foi o desenvolvimento de uma ferramenta para gerenciamento de trabalhos de graduação de uso interno da instituição de ensino, sendo o cliente a própria FATEC. A aplicação deve gerir as matérias/semestres, alunos, os diferentes tipos de TG, entrega de atividades, atribuição de notas, retorno de feedbacks e geração de relatórios.
+A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação), uma aplicação em desktop para uso dos próprios professores que ministram as matérias de Trabalho de Graduação.
 
 #### Tecnologias Utilizadas
 - Java: linguagem para manuseio dos dados e manipulação da lógica da aplicação;
 - JavaFX: framework Java para criação de telas. Nesse caso utilizado para o desenvolvimento das telas da aplicação em desktop.
 - Maven: ferramenta de automação de compilação utilizada para facilitar a importação de bibliotecas externas;
 - MySQL: um SGBD para armazenamento dos dados da aplicação;
-- IntelliJ IDEA: IDE para desenvolvimento Java;
 - Git e Github: controle de versionamento e hospedagem;
 - Diagrams.net: ferramenta web para desenho de diagramas, wireframe e UML da aplicação;
-- Discord: ferramenta de comunicação interna da equipe, utilizada para compartilhar informações e realizar reuniões quando necessário;
-- Slack: ferramenta para comunicação com o cliente;
-- MySQL Workbench: ferramenta visual para gerenciamento do MySQL;
 - DBeaver: ferramenta de administração de bases de dados relacionais, também utilizado para gerenciar o banco de dados MySQL.
 
 #### Contribuições Pessoais
@@ -125,8 +117,6 @@ Inicialmente comecei atuando apenas como desenvolvedor, porém, por volta do in�
 - Implementação de DAOs e objetos POJO que representam as entidades do banco de dados;
 - Colaborei com queries SQL para que busquem as informações corretas no banco de dados;
 
-Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.
-
 #### Hard Skills
 - Java: primeiro contato com a linguagem, aprendi a utilizar com consultas;
 - JavaFX: leve contato com a ferramenta, aprendi a utilizar com consultas e auxilio de outros membros;
@@ -142,11 +132,9 @@ ____
 ### ⚙️ Pipeline Configurator (2024-1)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
-  O problema foi apresentado pela parceira Dom Rock, uma empresa de dados e tecnologia de São José dos Campos que oferece serviços de tratamento de dados. A parceira recebe diversas entradas de dados como arquivos .xlsx ou .csv até mais complexos como gravações de voz e fotos e trata as informações através de uma pipeline que transforma os dados em consumíveis para a empresa cliente tomar decisões com base em dados.
-  
-  O desafio proposto envolveu o início da pipeline de dados da empresa parceira, sendo dividido em três etapas. A primeira (denominada Landing Zone) envolve a entrada de um arquivo. No caso do desafio proposto, um arquivo .csv. a segunda (denominada Bronze) tratava-se da definição do identificador único das informações do arquivo (ID), a escolha de colunas que geram um hash e a exclusão de informações sem relevância. Por fim, a terceira etapa (denominada Silver) é onde foram aplicadas as regras de negócio, além da possibilidade de criar relacionamentos de 'De/Para' para a conversão de informação para dados mais consumívels.
+  O problema foi apresentado pela parceira Dom Rock. Ele envolveu o início da pipeline de dados da empresa parceira. Tivemos que desenvolver a entrada de um arquivo, a definição de um id, geração de hash e a exclusão de informações sem relevância. Por fim, a aplicação das regras de negócio e relacionamentos 'De/Para'.
 
-  A equipe Wiz propôs e entregou a solução 'Pipeline Configurator', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados MySQL.
+  A equipe Wiz entregou a solução 'Pipeline Configurator', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados MySQL.
 
   **Funcionalidades**:
 - 🛬 Landing Zone: Entrada de arquivos CSV
@@ -161,21 +149,16 @@ ____
 - Java: linguagem de programação orientada a objetos;
 - Spring Boot: framework Java para desenvolvimento de Rest APIs;
 - MySQL: simples SGDB da Oracle para armazenamento de dados da aplicação;
-- IntelliJ IDEA: IDE para desenvolvimento Java;
-- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
 - Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
-- Discord: ferramenta para comunicação interna do grupo;
-- Slack: ferramenta para comunicação com o cliente
 
 #### Contribuições Pessoais
-- Colaborei com a modelagem, desenvolvimento e manutenção das tabelas e relacionamentos referentes à etapa Bronze, Silver, Logs;
+- Fui um dos membros responsáveis com a modelagem, desenvolvimento e manutenção do banco de dados da aplicação;
 - Colaborei com o mapeamento de entidades e DTOs das tabelas acima utilizando as anotações oferecidas pelo Spring para identificar chaves estrangeiras, chaves compostas, tipos de dados, nome de colunas, nome de tabelas, etc;
   - (@JoinColumn, @JoinColumns, @ManyToOne, @OneToMany, @Id, @EmbeddedId, @GeneratedValue)
   - Aprendizado e utilização dos dois diferentes tipos de FetchTypes do @GeneratedValue: LAZY e EAGER
 - Sugeri e implementei a biblioteca 'ModelMapper' no projeto. A biblioteca permite a conversão de Entidade para DTO e DTO para Entidade de maneira ágil em uma linha de código;
 - Implementei o Spring Security com JWTs, separando níveis de acesso entre admin, landing zone, bronze e silver;
-- Colaborei com a jornada do dado <Repository, Service, Controller> para várias entidades;
-- Desenvolvi vários métodos que implementam a regra de negócio requisitada pelo cliente na camada de serviço;
+- Participei ativamente do desenvolvimento no modelo de camadas de várias entidades;
 
 #### Hard Skills
 - Java: sei fazer com autonomia;
@@ -184,10 +167,8 @@ ____
 
 #### Soft Skills
 - Trabalho em equipe: realizei as tarefas, que foram dispostas igualmente entre os membros da equipe considerando o conhecimento de cada um, e ofereci apoio a quem teve dificuldades, evitando 'roubar' a tarefa para mim;
-- Comunicação: atualizações em dailies, sprint reviews e reuniões;
 - Iniciativa: propus diversas ferramentas e ideias que foram adotadas ao longo do projeto;
 - Solução de problemas: desenvolvi e apliquei algumas das regras de negócio do cliente nos serviços;
-- Pensamento analítico: análise e tratamento de dados que foram construídos em um objeto para ser facilmente consumido    
 ____
 ### 📍 Geo IoT (2024-2)
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/geo-iot-2024-1)
@@ -196,9 +177,9 @@ ____
 
 [🔗 Repositório do Server](https://github.com/AndreWakugawa/geoIoT-server)
 
-  O segundo projeto de 2024 foi proposto pela empresa parceira, especializada em tecnologias IoT, Ito1. O desafio proposto foi o desenvolvimento de uma ferramenta que consome dados de geolocalização de dispositivos IoT e disponibiliza de maneira visual em um mapa com o objetivo de monitoramento de espaço e tempo.
+  O segundo projeto de 2024 foi proposto pela empresa parceira, Ito1. O desafio proposto foi o desenvolvimento de uma ferramenta que consome dados de geolocalização de dispositivos IoT e disponibiliza de maneira visual em um mapa com o objetivo de monitoramento de espaço e tempo.
 
-  A equipe Manolito propôs e entregou a solução 'Geo IoT', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados Oracle Cloud.
+  A equipe Manolito entregou a solução 'Geo IoT', uma aplicação web desenvolvida com front-end Vue.js, servidor Java Spring Boot e banco de dados Oracle Cloud.
   
   **Funcionalidades**:
 - 🗺️ Plotagem dos dados de geolocalização em um mapa;
@@ -219,25 +200,40 @@ ____
 - Oracle Database: SGBD proprietário da Oracle, no contexto da apliucação utilizado on-cloud dentro da Oracle Cloud.
 - Oracle Spatial: componente GIS (Geographic Information System) da Oracle Database com schemas e funções SQL para melhor gerenciamento e manuseio dos dados geográficos;
 - Redis: banco de dados NoSQL que utiliza a memória disponível para armazenar os relacionamentos da chave. Comumente utilizado para estocar cache.
-- IntelliJ IDEA: IDE para desenvolvimento Java;
-- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
 - Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
-- Discord: ferramenta para comunicação interna do grupo;
-- Slack: ferramenta para comunicação com o cliente
 
 #### Contribuições Pessoais
-- Implementei e configurei a conexão do Oracle Cloud com o servidor utilizando wallet;
-- Colaborei e auxiliei colegas no mapeamento de entidades JPA espelhando o banco de dados;
-- Criei uma pipeline de CI de 'build' do backend logo no começo do desenvolvimento, evitando o envio de código quebrado para o desenvolvimento;
+- Configurei a conexão do Oracle Cloud com o servidor utilizando wallet;
+- Atuei como pilar do back-end, auxiliando colegas no mapeamento de entidades, CRUD, padrão de código e nome de variáveis/métodos;
+- Criei uma pipeline de CI de 'build' do back-end, evitando o envio de código quebrado;
   > [Link do .yml do Workflow](https://github.com/AndreWakugawa/geoIoT-server/blob/main/.github/workflows/setup-java.yml)
 - Configurei e compartilhei o conhecimento sobre o Oracle Spatial, ferramenta essencial para os dados de geolocalização, com o resto do grupo;
   > [Commit da conexão customizada para o Oracle Spatial](https://github.com/AndreWakugawa/geoIoT-server/commit/952c15449821c36b8275777e6418b75eb9170ef8)
   > [Commit de adição e uso do Oracle Spatial](https://github.com/AndreWakugawa/geoIoT-server/commit/0c6ebc782bf25750900e61058568691100d96c81)
-  > ![Query para busca de objetos geométricos](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/oracle_spatial_query.png)
-- Colaborei com o desenvolvimento de CRUDs de formas, usuários e dispositivos;
-- Implementei o Spring Security com JWTs e aberturas de exceção para endpoints do Swagger para acessos sem autenticação;
-  > ![SecurityConfig](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/security_config_jwt.png)
-- Desenvolvi vários métodos que implementam a regra de negócio requisitada pelo cliente na camada de serviço;
+  <details>
+  <summary>Query para busca de objetos geométricos</summary>
+
+  ```
+    @Query(value = """
+    SELECT dt.*
+    FROM tracker dt
+    WHERE SDO_INSIDE(
+            SDO_GEOMETRY(2001, 4326, SDO_POINT_TYPE(dt.longitude, dt.latitude, NULL), NULL, NULL),
+            (SELECT poly FROM location WHERE id_location = :locationId)
+            ) = 'TRUE'
+    AND dt.created_at BETWEEN :init AND :end
+    AND (:userId IS NULL OR dt.id_person = :userId)
+    ORDER BY dt.created_at
+    """, nativeQuery = true)
+    List<DeviceTracker> findTrackersInsideLocation(
+            @Param("locationId") Long locationId,
+            @Param("init") LocalDateTime init,
+            @Param("end") LocalDateTime end,
+            @Param("userId") Long userId
+    );
+  ```
+  </details>
+- Implementei o Spring Security com JWTs e aberturas de exceção para endpoints do Swagger;
 
 #### Hard Skills
 
@@ -252,7 +248,6 @@ ____
 
 - Solução de problemas: desenvolvi queries complexas e filtros de segurança para atender aos requisitos do projeto;
 - Trabalho em equipe: colaborei ativamente através de pull requests, code reviews e discussões técnicas;
-- Comunicação: participei de reuniões de alinhamento para definir a arquitetura da API e as regras de negócio;
 - Adaptabilidade: fui responsavel por aprender e ensinar o grupo sobre Oracle Cloud e Oracle Spatial no início do projeto.
 
 ____
@@ -264,18 +259,13 @@ ____
 
 [🔗 Repositório do Server](https://github.com/manolito-fatec/web-server-2025-1)
 
-  O desafio foi proposto pela empresa parceira Youtan, desenvolvedora de software de São José dos Campos que atende diversos clientes. Ele consistiu em desenvolver uma aplicação para uso interno da empresa-cliente que se integra a ferramentas de gestão de projeto Taiga. O objetivo principal é gerar e visualizar indicadores sobre o andamento dos projetos, auxiliando na tomada de decisões estratégicas da empresa.
-  Para isso criamos o 'Youtan Dash', uma aplicação web com front-end em Vue.js, servidor Java Spring Boot com serviços Apache Spark e banco de dados PostgreSQL.
+  O desafio foi proposto pela empresa parceira Youtan. Ele consistiu em desenvolver uma aplicação para uso interno da empresa-cliente que se integra a ferramentas de gestão de projeto Taiga. O objetivo principal é gerar e visualizar indicadores sobre o andamento dos projetos, auxiliando na tomada de decisões estratégicas da empresa. Para isso criamos o 'Youtan Dash', uma aplicação web com front-end em Vue.js, servidor Java Spring Boot com serviços Apache Spark e banco de dados PostgreSQL.
   Também foram requisitos a aplicação de DevOps e o desenvolvimento de um Data Warehouse.
 
 **Funcionalidades**:
 
 - 🔗 Integração com APIs das ferramentas Taiga, Jira e Trello, além de API aberta para integração com outras ferramentas;
-- 📈 Dashboards com métricas de produtividade como:
-  - Gráfico de Tasks/Cards criados e completados ao longo do tempo;
-  - Tempo médio de finalização de cards;
-  - Total de cards;
-  - Cards identificados como 'retrabalhos'.
+- 📈 Dashboards com métricas de produtividade;
 - 👤 Controle de acesso e acessibilidade a dados pertinentes por níveis de usuário (Operador, Gestor, Admin).
 - 📤 Possibilidade de uso externo com a exportação dos dados de Dashboards para .csv.
 
@@ -292,7 +282,7 @@ ____
   - JUnit: framework de código aberto para a criação e execução de testes unitários em Java.
 
 - Front-end:
-  -HTML: linguagem de programação para criação de páginas Web;
+  - HTML: linguagem de programação para criação de páginas Web;
   - CSS: linguagem para aplicação de estilos em códigos HTML;
   - TypeScript: linguagem variante de JavaScript que adiciona tipagem ao código;
   - Vue.js: framework JavaScript para o desenvolvimento de SPA (Single Page Application) e facilitador na criação de códigos reutilzáveis;
@@ -303,32 +293,20 @@ ____
   - GitHub Actions: plataforma de automação integrada ao GitHub, utilizada para construir workflows de CI/CD (Integração e Entrega Contínua);
   - SonarCloud: serviço em nuvem para qualidade e segurança de código, que se conecta ao repositório para realizar análises estáticas.
 
-- Ferramentas:
-  - IntelliJ IDEA: IDE para desenvolvimento Java;
-  - Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
-  - Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
-  - Swagger: ferramenta que auxilia na edição e criação de definições para a API. Utilizado internamente e para disponibilizar a API da aplicação ao cliente;
-  - Discord: ferramenta para comunicação interna do grupo;
-  - Slack: ferramenta para comunicação com o cliente
-
 #### Contribuições Pessoais
 
-Atuei como desenvolvedor back-end, com foco na construção da API REST e na implementação das regras de negócio. Minhas principais contribuições incluem:
+Atuei como desenvolvedor back-end, minhas principais contribuições:
 
 - Configurei o CI desde a primeira semana (requisito de DevOps), o que evitou dores de cabeça com branches quebradas.
   > [Link do histórico de commits no Workflow](https://github.com/AndreWakugawa/web-server-2025-1/commits/main/.github/workflows/java-build.yml)
-- Desenhei e implementei o Data Warehouse para consulta pelos Dashboards;
-- Desenhei e implementei o DB funcional da aplicação;
-- Auxiliei nas configurações das migrações iniciais do DB funcional com Flyway, garantindo um versionamento consistente do schema do banco de dados ao longo do desenvolvimento;
+- Desenhei e implementei o Data Warehouse  e o DB funcional para uso interno da aplicação;
+- Auxiliei nas configurações das migrações iniciais com Flyway;
   > [Link das migrations Flyway](https://github.com/AndreWakugawa/web-server-2025-1/tree/main/src/main/resources/db/dashflow-db-versioning/migration)
-- Implementei endpoints para a visualização de métricas com múltiplos parâmetros como filtros opcionais e dados defaults caso não fornecidos. Isso permitiu consultas mais dinâmicas e auxiliou a equipe de front-end;
-  > ![Request paginado com params e defaults](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/request-paginado.png)
-- Fui responsável pela segurança da aplicação. Configurei todo o Spring Security com uso de JWTs;
+- Desenvolvi endpoints para a visualização de métricas com filtros opcionais e dados defaults. Isso permitiu consultas mais dinâmicas e auxiliou a equipe de front-end;
+- Fui responsável pela segurança da aplicação, onde configurei o Spring Security com uso de JWTs;
 - Implementei um filtro de logs customizado (LoggingFilter) que se integra à cadeia de filtros do framework, interceptando e capturando as requisições API e registrando informações essenciais (método HTTP, URI, usuário solicitante) antes de prosseguirem para os controllers. É uma funcionalidade importante para auditoria.
-  > ![Filtro interno de logs](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/log-filtro1.png)
-  > ![Log no db durante o filtro acima](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/log-filtro2.png)
-- Participei das decisões de arquitetura, ajudando a definir e implementar o padrão de camadas da aplicação (Controller, Service, Repository).
-- Colaborei no desenvolvimento da arquitetura e da lógica do processo de ETL via Apache Spark com a API da ferramenta open-source Taiga com a busca de somente dados relevantes para a aplicação e tratando diferentes formatos de dados para que fossem corretamente persistidos e disponibilizados para os dashboards no nosso Data Warehouse.
+- Participei das decisões de arquitetura, ajudando a definir e implementar o padrão de camadas da aplicação.
+- Colaborei no desenvolvimento da arquitetura e da lógica do processo de ETL via Apache Spark com a API da ferramenta open-source Taiga para que fossem corretamente persistidos e disponibilizados para os dashboards no nosso Data Warehouse.
   <details>
   <summary>Commits de Handlers, Transformer, Loader e Utils do ETL</summary>
     
@@ -357,7 +335,6 @@ Atuei como desenvolvedor back-end, com foco na construção da API REST e na imp
 
 - Solução de problemas: desenvolvi queries complexas e filtros de segurança para atender aos requisitos do projeto;
 - Trabalho em equipe: colaborei ativamente através de pull requests, code reviews e discussões técnicas;
-- Comunicação: participei de reuniões de alinhamento para definir a arquitetura da API e as regras de negócio;
 - Flexibilidade: trabalhei em diversas frentes sem depender de terceiros.
 
 ____
@@ -372,8 +349,8 @@ ____
 
 [🔗 Repositório de IA](https://github.com/AndreWakugawa/ai-server-2025-2)
 
-  O desafio do ultimo semestre envolveu a modernização do sistema de suporte do cliente real Pro4Tech que enfrentava dificuldades com o controle manual de tickets em uma base de dados legada, falta de histórico consolidado e ausência de indicadores de desempenho. Além disso, havia uma necessidade crítica de adequação à Lei Geral de Proteção de Dados (LGPD) no manuseio de informações sensíveis. Nos foi disponibilizado uma base de dados fictícia para trabalharmos a necessidade real do cliente.
-  A equipe Manolito propôs e entregou a solução 'Pardal', uma plataforma completa de gerenciamento de chamados que centraliza o atendimento, aplica inteligência artificial para insights preditivos e garante a anonimização automática de dados sensíveis. A arquitetura envolveu um front-end em Vue.js, back-end em Java Spring Boot integrado a scripts Python para ETL e IA, utilizando bancos de dados PostgreSQL (relacional) e MongoDB (Não-relacional).
+  O desafio do ultimo semestre envolveu a modernização do sistema de suporte do cliente Pro4Tech que enfrentava dificuldades com o controle manual de tickets em uma base de dados legada. Além disso, havia uma necessidade crítica de adequação à Lei Geral de Proteção de Dados (LGPD). Nos foi disponibilizado uma base de dados fictícia para trabalharmos a necessidade real do cliente.
+  A equipe Manolito entregou a solução 'Pardal', uma plataforma completa de gerenciamento de chamados que centraliza o atendimento, aplica inteligência artificial para insights preditivos e garante a anonimização automática de dados sensíveis. A arquitetura envolveu um front-end em Vue.js, back-end em Java Spring Boot integrado a scripts Python para ETL e IA, utilizando bancos de dados PostgreSQL (relacional) e MongoDB (Não-relacional).
 
 **Funcionalidades**
 
@@ -409,43 +386,75 @@ ____
 - PrimeVue: Biblioteca de componentes visuais;
 - Axios: Cliente HTTP para comunicação com o back-end.
 
-##### Ferramentas
-- IntelliJ IDEA: IDE para desenvolvimento Java;
-- Visual Studio Code: editor de código-fonte multifuncional. No escopo do projeto utilizado para desenvolvimento de Vue.js;
-- Figma: ferramenta utilizada para desenvolvimento de Mockups e Wireframes;
-- Discord: ferramenta para comunicação interna do grupo;
-- Slack: ferramenta para comunicação com o cliente
-
 #### Contribuições Pessoais
 
-Atuei com foco no desenvolvimento do Back-end e na integração com os modelos de Inteligência Artificial, além de colaborar com a arquitetura de dados híbrida (SQL e NoSQL).
+Atuei como desenvolvedor back-end e na integração com os modelos de Inteligência Artificial, além de colaborar com a arquitetura de dados híbrida (SQL e NoSQL).
 - Aprendi e implementei o padrão Specification do JPA para criar filtros de busca dinâmicos e encadeáveis. Isso permitiu que o front-end enviasse combinações variadas de filtros sem a necessidade de criar múltiplos endpoints ou queries;
   <details>
   <summary>Filtro de JPA Specifications</summary>
-  
-  ![Filtro de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_filtros.png)
-  
+    
+  ```
+      private static Specification<Tickets> filterOptionalParams(TicketsFilters pFilters) {
+        return (root, query, criteriaBuilder) -> {
+            List<Predicate> predicates = new ArrayList<>();
+
+            if (pFilters.getProductId() != null) {
+                predicates.add(criteriaBuilder.equal(root.get(PRODUCT).get(ID), pFilters.getProductId()));
+            }
+
+            if (pFilters.getCustomerId() != null) {
+                predicates.add(criteriaBuilder.equal(root.get(COMPANY).get(ID), pFilters.getCustomerId()));
+            }
+
+            if (pFilters.getFromDate() != null) {
+                predicates.add(criteriaBuilder.greaterThanOrEqualTo(
+                        root.get(CREATED_AT), pFilters.getFromDate().toInstant(ZoneOffset.UTC)));
+            }
+
+            if (pFilters.getToDate() != null) {
+                predicates.add(criteriaBuilder.lessThanOrEqualTo(
+                        root.get(CREATED_AT), pFilters.getToDate().toInstant(ZoneOffset.UTC)));
+            }
+
+            return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
+        };
+    }
+  ```
   </details>
   <details>
   <summary>Uso de JPA Specifications</summary>
-  
-  ![Uso de JPA Specifications](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/specification_uso.png)
+    
+  ```
+    public static Specification<Tickets> isSlaMet() {
+        return (root, query, cb) -> {
+            Join<Tickets, SlaPlan> slaPlanJoin = root.join(SLA_PLAN);
+
+            Predicate closedAtIsNotNull = cb.isNotNull(root.get(CLOSED_AT));
+
+            HibernateCriteriaBuilder hcb = (HibernateCriteriaBuilder) cb;
+            var timestampDiff = hcb.durationByUnit(
+                    TemporalUnit.MINUTE,
+                    hcb.durationBetween(root.get(CLOSED_AT),root.get(CREATED_AT))
+            );
+            Predicate resolutionTimeIsMet = cb.lessThanOrEqualTo(
+                    timestampDiff,
+                    slaPlanJoin.get(RESOLUTION_MINS)
+            );
+
+            return cb.and(closedAtIsNotNull, resolutionTimeIsMet);
+        };
+    }
+  ```
   </details>
   
-- Em endpoints de Controllers, encapsulei filtros opcionais em objetos DTO, tornando o código mais limpo e a manutenção mais simples ao evitar assinaturas de métodos com excesso de parâmetros.
-- Estudei e apliquei o MongoTemplate para realizar operações no MongoDB, necessárias para armazenar e consultar os dados processados e os resultados dos modelos de IA que não se adequavam ao modelo relacional estrito.
-  > ![Uso de MongoTemplate](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/mongoTemplate.png)
-- Colaborei no treinamento e integração do modelo de IA focado na predição de estouro de SLA, auxiliando na lógica que define quais tickets necessitam de atenção prioritária.
+- Nos endpoints, encapsulei filtros opcionais em objetos DTO, tornando o código mais limpo e a manutenção mais simples ao evitar assinaturas de métodos com excesso de parâmetros.
+- Estudei e apliquei o MongoTemplate para realizar operações no MongoDB, necessárias para armazenar e consultar os dados processados e os resultados dos modelos de IA.
+- Colaborei no treinamento e integração do modelo de IA focado na predição de estouro de SLA.
 - Desenvolvi a funcionalidade de exportação de dados, espelhando os filtros aplicados pelo usuário no Dashboard:
   <details>
   <summary>Para PDF utilizei o PdfWriter do ilovepdf</summary>
   
   ![Link do serviço de Export de PDF](https://github.com/AndreWakugawa/web-server-2025-2/blob/main/src/main/java/com/pardal/app/service/export/PdfExportService.java)
-  </details>
-  <details>
-  <summary>Para CSV utilizei o CSVWriter do opencsv</summary>
-  
-  !![Gerador de CSV](https://raw.githubusercontent.com/AndreWakugawa/portfolio/refs/heads/main/blob/CsvPrintWriter.png)
   </details>
 
 #### Hard Skills
