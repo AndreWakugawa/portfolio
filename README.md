@@ -137,6 +137,7 @@ ____
 <p align="center">
 <img width="697" height="440" alt="Config Bronze" src="https://github.com/user-attachments/assets/e90855e4-a02f-4110-bdd0-5d3e89cb403b" />
 </p>
+
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/dom-rock-pipeline-configurator)
 
   O problema foi apresentado pela parceira Dom Rock. Ele envolveu o início da pipeline de dados da empresa parceira. Tivemos que desenvolver a entrada de um arquivo, a definição de um id, geração de hash e a exclusão de informações sem relevância. Por fim, a aplicação das regras de negócio e relacionamentos 'De/Para'.
@@ -181,6 +182,7 @@ ____
 <p align="center">
 <img width="972" height="496" alt="TelaRotaComFiltro" src="https://github.com/user-attachments/assets/60502e43-39fd-420b-94ed-4227414da2d3" />
 </p>
+
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/geo-iot-2024-1)
 
 [🔗 Repositório do Client](https://github.com/AndreWakugawa/geoIoT-client)
@@ -265,6 +267,7 @@ ____
 <p align="center">
 <img width="889" height="649" alt="image" src="https://github.com/user-attachments/assets/822f7503-5d6f-47b8-9f4f-b8a10bf572ba" />
 </p>
+
 [🔗 Repositório no GitHub](https://github.com/manolito-fatec/dashflow-2025-1)
 
 [🔗 Repositório do Client](https://github.com/manolito-fatec/web-client-2025-1)
@@ -355,6 +358,7 @@ ____
 <p align="center">
 <img width="889" height="649" alt="image" src="https://github.com/user-attachments/assets/f2b60107-5d49-437f-b5c6-9d0ce50b9e85" />
 </p>
+
 [🔗 Repositório Principal](https://github.com/AndreWakugawa/pardal-2025)
 
 [🔗 Repositório do Client](https://github.com/AndreWakugawa/web-client-2025-2)
