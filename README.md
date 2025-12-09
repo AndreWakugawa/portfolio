@@ -94,6 +94,7 @@ ____
 [🔗 Repositório no GitHub](https://github.com/AndreWakugawa/API-2-Semestre-DevMinds/tree/main)
 
 O desafio proposto foi o desenvolvimento de uma ferramenta para gerenciamento de trabalhos de graduação de uso interno da instituição de ensino, sendo o cliente a própria FATEC. A aplicação deve gerir as matérias/semestres, alunos, os diferentes tipos de TG, entrega de atividades, atribuição de notas, retorno de feedbacks e geração de relatórios.
+
 A solução entregue foi o SGTG (Sistema Gerenciador de Trabalho de Graduação), uma aplicação em desktop para uso dos próprios professores que ministram as matérias de Trabalho de Graduação.
 
 #### Tecnologias Utilizadas
@@ -274,8 +275,11 @@ ____
 
 [🔗 Repositório do Server](https://github.com/manolito-fatec/web-server-2025-1)
 
-  O desafio foi proposto pela empresa parceira Youtan. Ele consistiu em desenvolver uma aplicação para uso interno da empresa-cliente que se integra a ferramentas de gestão de projeto Taiga. O objetivo principal é gerar e visualizar indicadores sobre o andamento dos projetos, auxiliando na tomada de decisões estratégicas da empresa. Para isso criamos o 'Youtan Dash', uma aplicação web com front-end em Vue.js, servidor Java Spring Boot com serviços Apache Spark e banco de dados PostgreSQL.
+  O desafio foi proposto pela empresa parceira Youtan. Ele consistiu em desenvolver uma aplicação para uso interno da empresa-cliente que se integra a ferramentas de gestão de projeto Taiga. O objetivo principal é gerar e visualizar indicadores sobre o andamento dos projetos, auxiliando na tomada de decisões estratégicas da empresa.
+
   Também foram requisitos a aplicação de DevOps e o desenvolvimento de um Data Warehouse.
+
+  Para isso criamos o 'Youtan Dash', uma aplicação web com front-end em Vue.js, servidor Java Spring Boot com serviços Apache Spark e banco de dados PostgreSQL.
 
 **Funcionalidades**:
 
@@ -367,8 +371,11 @@ ____
 
 [🔗 Repositório de IA](https://github.com/AndreWakugawa/ai-server-2025-2)
 
-  O desafio do ultimo semestre envolveu a modernização do sistema de suporte do cliente Pro4Tech que enfrentava dificuldades com o controle manual de tickets em uma base de dados legada. Além disso, havia uma necessidade crítica de adequação à Lei Geral de Proteção de Dados (LGPD). Nos foi disponibilizado uma base de dados fictícia para trabalharmos a necessidade real do cliente.
-  A equipe Manolito entregou a solução 'Pardal', uma plataforma completa de gerenciamento de chamados que centraliza o atendimento, aplica inteligência artificial para insights preditivos e garante a anonimização automática de dados sensíveis. A arquitetura envolveu um front-end em Vue.js, back-end em Java Spring Boot integrado a scripts Python para ETL e IA, utilizando bancos de dados PostgreSQL (relacional) e MongoDB (Não-relacional).
+O desafio do ultimo semestre envolveu a modernização do sistema de suporte do cliente Pro4Tech que enfrentava dificuldades com o controle manual de tickets em uma base de dados legada. Houve uma necessidade de adequação à Lei Geral de Proteção de Dados (LGPD) e nos foi disponibilizado uma base de dados fictícia para trabalharmos.
+  
+A equipe Manolito entregou a solução 'Pardal', uma plataforma de gerenciamento de chamados que aplica inteligência artificial para insights preditivos e garante a anonimização automática de dados sensíveis.
+  
+A arquitetura envolveu um front-end em Vue.js, back-end em Java Spring Boot integrado a scripts Python para ETL e IA, utilizando bancos de dados PostgreSQL (relacional) e MongoDB (Não-relacional).
 
 **Funcionalidades**
 
